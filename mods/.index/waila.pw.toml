@@ -1,0 +1,16 @@
+filename = 'Waila-1.5.10_1.7.10.jar'
+name = 'Waila'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7a874ee79a88cf66bd5355c8393069b3ac39c631'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2230518
+project-id = 73488

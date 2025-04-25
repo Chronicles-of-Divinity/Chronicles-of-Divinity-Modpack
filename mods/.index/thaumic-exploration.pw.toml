@@ -1,0 +1,16 @@
+filename = 'ThaumicExploration-1.7.10-1.1-53.jar'
+name = 'Thaumic Exploration'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'da305e257f533bd15855cbb37bebf0b02a83c276'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2263414
+project-id = 230969

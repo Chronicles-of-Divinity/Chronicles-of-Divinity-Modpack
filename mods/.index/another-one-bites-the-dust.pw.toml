@@ -1,0 +1,16 @@
+filename = 'AOBD-2.9.1.jar'
+name = 'Another One Bites the Dust'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a0be848d659b2ec6f5a53b5cf887d632a16c35ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2279232
+project-id = 221863

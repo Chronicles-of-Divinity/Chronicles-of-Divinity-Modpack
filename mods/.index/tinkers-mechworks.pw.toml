@@ -1,0 +1,16 @@
+filename = 'TMechworks-1.7.10-0.2.15.106.jar'
+name = "Tinkers' Mechworks"
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '74f095b26d2667f4700ea57133fd382436899119'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2272157
+project-id = 78057

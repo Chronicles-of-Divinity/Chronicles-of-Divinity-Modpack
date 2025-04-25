@@ -1,0 +1,16 @@
+filename = 'ExtraCells-1.7.10-2.3.14b197.jar'
+name = 'ExtraCells2'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fda1478519a58236b3b857bec89c3831367778ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2308206
+project-id = 229218

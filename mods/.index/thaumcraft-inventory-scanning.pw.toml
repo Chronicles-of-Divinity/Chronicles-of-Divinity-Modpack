@@ -1,0 +1,16 @@
+filename = 'tcinventoryscan-mc1.7.10-1.0.11.jar'
+name = 'Thaumic Inventory Scanning (Thaumcraft Addon)'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2bdfe707d0adb5b51be97526c4a37a26d3f83f06'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2286894
+project-id = 238003

@@ -1,0 +1,16 @@
+filename = 'VeinMiner-1.7.10-0.36.0.496+28a7f13.jar'
+name = 'VeinMiner'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bf8198322111c0b1c0af097c0f926065142f56cf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2435506
+project-id = 67133

@@ -1,0 +1,16 @@
+filename = 'MineTweaker3-1.7.10-3.0.10B.jar'
+name = 'MineTweaker3'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '11ae0e9f55184e3f50b388ec8294200ae3ebd253'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2259434
+project-id = 224029

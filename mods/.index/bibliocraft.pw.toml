@@ -1,0 +1,16 @@
+filename = 'BiblioCraft[v1.11.4][MC1.7.10].jar'
+name = 'BiblioCraft'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '492be8d4b3adea344c0b19f1e39e9dcd08574fd1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2264882
+project-id = 228027

@@ -1,0 +1,16 @@
+filename = 'MineFactoryReloaded-[1.7.10]2.8.1-174.jar'
+name = 'Minefactory Reloaded'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f1b2abdb0a1f1355bcceceec1430f39a50dc9e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2277485
+project-id = 66672

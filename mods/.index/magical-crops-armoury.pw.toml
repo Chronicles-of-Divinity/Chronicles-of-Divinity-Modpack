@@ -1,0 +1,16 @@
+filename = 'magicalcropsarmoury-4.0.0_PUBLIC_BETA_4.jar'
+name = 'Magical Crops: Armoury'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '8499795005c5fe1101b3fb80d6767bdbcc927396'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2244865
+project-id = 232149

@@ -1,0 +1,16 @@
+filename = '[1.7.10]StartingInventory-universal-1.7.10.r03.jar'
+name = 'StartingInventory'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0651b85dae0625e9564df3c8e4a7506028594bd0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2218985
+project-id = 225569

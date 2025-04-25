@@ -1,0 +1,16 @@
+filename = 'mcjtylib-1.8.1.jar'
+name = 'McJtyLib'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ade40bb060ac948c60d44e17a2d8dd27771aeed1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2272449
+project-id = 233105

@@ -1,0 +1,16 @@
+filename = 'minefactory-magicalcrops-compatibility-1.2.jar'
+name = 'MFR Magical Crops Compatibility'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b26c2a314f35b4dc7e8e0dbd36170b2edb20a815'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2289210
+project-id = 227983

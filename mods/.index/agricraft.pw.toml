@@ -1,0 +1,16 @@
+filename = 'AgriCraft-1.7.10-1.5.0.jar'
+name = 'AgriCraft'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cdc3f95c7a0ad28938c3b51a4c8826852818e095'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2284130
+project-id = 225635

@@ -1,0 +1,16 @@
+filename = 'Chisel-2.9.5.11.jar'
+name = 'Chisel'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd9e4b54913bbd38543ab873043145e3b4992bf95'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2287442
+project-id = 235279

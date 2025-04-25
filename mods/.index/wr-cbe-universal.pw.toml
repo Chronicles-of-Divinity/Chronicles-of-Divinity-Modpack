@@ -1,0 +1,16 @@
+filename = 'WR-CBE-1.7.10-1.4.1.9-universal.jar'
+name = 'WR-CBE-Universal'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0f5ec22e841ac08a1a27d0bdaf51bc10507ae8cf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2233235
+project-id = 229314

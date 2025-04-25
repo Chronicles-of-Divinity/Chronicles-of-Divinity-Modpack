@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.7.10-4.7.0pre12.95-World.jar'
+name = 'Project Red - Exploration'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7573fbb8cfc3e6228724dbe1da5cf0e641f132cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2280735
+project-id = 229049

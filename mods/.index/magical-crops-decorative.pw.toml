@@ -1,0 +1,16 @@
+filename = 'magicalcropsdeco-4.0.0_PUBLIC_BETA_4a.jar'
+name = 'Magical Crops: Decorative'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '01808588f9bacc9a1056ded1ad5fe5a93393518b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2246204
+project-id = 232182
