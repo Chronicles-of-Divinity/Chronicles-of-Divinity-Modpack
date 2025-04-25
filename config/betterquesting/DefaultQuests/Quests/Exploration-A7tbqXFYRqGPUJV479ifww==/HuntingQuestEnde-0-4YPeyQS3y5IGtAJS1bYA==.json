@@ -1,0 +1,158 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6613418334037720968,
+      "questIDLow:4": -6684824694602445016
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Defeat 25 Endermen!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:blockEndermanSkull"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Hunting Quest: Endermen",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3175574033008669828,
+  "questIDLow:4": -5106964054192333984,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenBlocks:trophy",
+          "tag:10": {
+            "entity:8": "Enderman"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:Crossbow",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:3": 2,
+              "Attack:3": 11,
+              "BaseAttack:3": 11,
+              "BaseDrawSpeed:3": 5,
+              "BaseDurability:3": 2000,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Damage:3": 0,
+              "DrawSpeed:3": 5,
+              "Extra:3": 9,
+              "FlightSpeed:5": 12.6,
+              "Handle:3": 12,
+              "HarvestLevel:3": 10,
+              "Head:3": 190,
+              "Loaded:1": 1,
+              "LoadedItem:10": {
+                "Count:1": 1,
+                "Damage:2": 0,
+                "id:2": 5831,
+                "tag:10": {
+                  "InfiTool:10": {
+                    "Accessory:3": 0,
+                    "Accuracy:5": 97.5,
+                    "Ammo:3": 1,
+                    "Attack:3": 2,
+                    "BaseAttack:3": 2,
+                    "BaseDurability:3": 250,
+                    "BonusDurability:3": 0,
+                    "BreakChance:5": 0.07000001,
+                    "Broken:1": 0,
+                    "Built:1": 1,
+                    "Damage:3": 0,
+                    "Handle:3": 0,
+                    "HarvestLevel:3": 2,
+                    "Head:3": 2,
+                    "Mass:5": 4.335,
+                    "MiningSpeed:3": 600,
+                    "ModDurability:5": 0.0,
+                    "Modifiers:3": 2,
+                    "RenderAccessory:3": 0,
+                    "RenderHandle:3": 0,
+                    "RenderHead:3": 2,
+                    "Shoddy:5": 0.0,
+                    "TotalDurability:3": 250,
+                    "Unbreaking:3": 1
+                  },
+                  "display:10": {
+                    "Name:8": "�fIron Bolts"
+                  }
+                }
+              },
+              "MiningSpeed:3": 1300,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 4,
+              "RenderAccessory:3": 2,
+              "RenderExtra:3": 9,
+              "RenderHandle:3": 12,
+              "RenderHead:3": 190,
+              "Shoddy:5": 0.0,
+              "TotalDurability:3": 2000,
+              "Unbreaking:3": 1
+            },
+            "display:10": {
+              "Name:8": "�fAtri\u0027s Thunder Shots"
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockEndermanSkull"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 76,
+          "OreDict:8": "",
+          "id:8": "ThermalFoundation:material"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "required:3": 25,
+      "subtypes:1": 1,
+      "target:8": "Enderman",
+      "targetNBT:10": {},
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

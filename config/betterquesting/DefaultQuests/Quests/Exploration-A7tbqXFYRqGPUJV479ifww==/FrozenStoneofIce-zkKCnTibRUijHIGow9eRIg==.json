@@ -1,0 +1,81 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8137819239128022136,
+      "questIDLow:4": -8866920465541045823
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Create a Portal out of Snow Blocks and light it with a Snow Globe. Enter Iceika, and grab a couple stacks of Frozen Stone. Don\u0027t forget about VeinMiner. Once you\u0027re done, get out: There are some dangerous mobs in there.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "divinerpg:frozenStone"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Frozen Stone of Iceika",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3584158741662317240,
+  "questIDLow:4": -6693332384339226334,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelBelt",
+          "tag:10": {
+            "TinkerAccessory:10": {
+              "BaseDurability:3": 500,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 5,
+              "TotalDurability:3": 500
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:frozenStone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

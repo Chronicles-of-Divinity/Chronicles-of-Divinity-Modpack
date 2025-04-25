@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2927457490810549279,
+      "questIDLow:4": -8016127749539337265
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Enter the Dark Forest, break through the Leaves, and find the entrance to the Goblin Knight Stronghold. Place a trophy you\u0027ve previously earned on top of a Trophy Pedestal to remove the shield around the Stronghold. Defeat Knights inside to obtain Armor Shards. This item is used to create Knightmetal, needed in some lategame items. If you need many, consider Powered Spawning these Kngihts. Once inside the Stronghold, find and defeat the Knight Phantom to be able to progress further.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TwilightForest:item.armorShards"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Knightmetal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -660114863844996492,
+  "questIDLow:4": -8589327846653020665,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 52,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TwilightForest:item.armorShards"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

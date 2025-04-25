@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -530901560962957022,
+      "questIDLow:4": -8567987945523853637
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "[Recommended to do as early as possible, because there\u0027s good loot in the dungeons! You still need to be somewhat geared though.] Craft a Magical Staff and use it on a Stonebrick platform that has Chiseled Stonebricks in the center. Do it further away from your base, since this portal won\u0027t be removable. Click on the portal to enter the Runic Dungeons. Each room contains some spawners, some loot, and a key to continue. Use your map to not get stuck in a hallway that doesn\u0027t contain keys to continue. Good luck!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "runicdungeons:item.magicstaff"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "INTO THE DUNGEONS!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6613418334037720968,
+  "questIDLow:4": -6684824694602445016,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "TConstruct:heartCanister"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "runicdungeons:item.key"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

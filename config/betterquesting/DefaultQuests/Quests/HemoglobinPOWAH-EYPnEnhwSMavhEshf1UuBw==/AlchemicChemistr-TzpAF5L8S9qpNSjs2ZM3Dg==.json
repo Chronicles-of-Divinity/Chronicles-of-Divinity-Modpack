@@ -1,0 +1,85 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6853189293954283980,
+      "questIDLow:4": -7978191106668433841
+    },
+    "1:10": {
+      "questIDHigh:4": 4906359939562884508,
+      "questIDLow:4": -7175577678708183691
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an Alchemic Chemistry Set. Or multiple of them... Using a Blood Orb with enough internal Life Essence you can create Magical Alchemy items with this machine that will be very useful later on. If you wish to automate your Alchemy, setup the Ballad of Alchemy Ritual. It requires constant source of Life Essence. (Check the Sacrifice Rune part to see how to automate gainig Life Essence.) And check this website to see how to setup the Ritual: http://ftbwiki.org/Ballad_of_Alchemy",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:blockWritingTable"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Alchemic Chemistry Set",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5708945947639958490,
+  "questIDLow:4": -6254047509806369010,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:glowstone_dust"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:gunpowder"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:sugar"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:blockWritingTable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

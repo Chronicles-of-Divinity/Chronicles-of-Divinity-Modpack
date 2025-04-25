@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Setup basic farms and harvest them automatically using an Ender IO Farming Station, a MineFactory Reloaded Planter \u0026 Harvester, or an Ender IO Addons AgriCraft Farming Station. Boost the growth speed of your crops by mutating them to 10/10/10s, craft an Imaginary Time Block so your crops grow insanely fast, and create Magical Crops that can produce all types of different materials!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "name:8": "Farming",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": -938963293177757555,
+  "questLineIDLow:4": -5622748878844801377
+}

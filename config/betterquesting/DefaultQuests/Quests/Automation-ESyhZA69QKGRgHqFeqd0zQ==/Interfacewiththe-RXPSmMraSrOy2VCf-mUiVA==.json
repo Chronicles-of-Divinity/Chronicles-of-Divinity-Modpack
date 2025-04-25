@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5468654369491759124,
+      "questIDLow:4": -6970036665128639544
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an ME Interface! This item has two forms and you can swtich between them by placing one in a Crafting Table. They both function the same way, but one of them is a multiblock. This item can interface with the world: Try putting items in the top row, you\u0027ll be able to output from your ME System. Try putting Patterns there with a Crafting Card: You can automatically craft that item if you have a crafting CPU and some Molecular Assemblers, then output it in this Interface. You can also use it on machines, to input items either from a Pattern or by themselves. And finally, it\u0027s used in combination with Molecular Assemblers to automatically craft (see: Molecular Assembler part).",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:tile.BlockInterface"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Interface with the world!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5004575164618918579,
+  "questIDLow:4": -5559323616981212588,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "ThermalDynamics:servo"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockInterface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

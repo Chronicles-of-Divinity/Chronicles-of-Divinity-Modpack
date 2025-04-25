@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3658363177516813481,
+      "questIDLow:4": -4859325015471817456
+    },
+    "1:10": {
+      "questIDHigh:4": -5283492048996251536,
+      "questIDLow:4": -8170786436506540132
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft a Sigil of Magnetism. When right clicked, you activate a magnet that used a tiny amount of Life Essence. It\u0027s useful to put this Sigil into your Bound Armor, because you won\u0027t need a magnet in your inventory and you don\u0027t use any Life Essence with Sigils in your Bound Armor.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:sigilOfMagnetism"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Sigil of Magnetism",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1314367990964766953,
+  "questIDLow:4": -7868091025577448512,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:frozenStone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:sigilOfMagnetism"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

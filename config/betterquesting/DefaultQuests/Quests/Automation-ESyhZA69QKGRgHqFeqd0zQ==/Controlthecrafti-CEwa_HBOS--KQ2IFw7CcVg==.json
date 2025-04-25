@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5004575164618918579,
+      "questIDLow:4": -5559323616981212588
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft a Crafting Unit! This item can be further crafted into Crafting Storage, a Crafting Co-Processing Unit, and a Crafting Monitor. Using these items, create a rectangular shape that contains at least one Crafting Storage of any kind. These mulitblocks control your crafting, the more complicated a crafting request is, the more Crafting Storage you\u0027ll need. Just attach one of these multiblocks onto your ME System, and you\u0027re able to craft now (see: Molecular Assembler part). But only 1 crafting process can be done at a time: To be able to craft multiple items at once, just create more multiblocks. Additinally, use Crafting Co-Processing Unit to be able to use more machines on your ME Network for one crafting process, and use a Crafting Monitor to have a visual indication of what the multiblock is currently working on - but you can rightclick the multiblock or check the crafting process from a Terminal anyway (by clicking on the wrench at the top right).",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:tile.BlockCraftingUnit"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Control the crafting!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 597882522051693551,
+  "questIDLow:4": -8483829496138392490,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:golden_horse_armor"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:tile.BlockCraftingUnit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

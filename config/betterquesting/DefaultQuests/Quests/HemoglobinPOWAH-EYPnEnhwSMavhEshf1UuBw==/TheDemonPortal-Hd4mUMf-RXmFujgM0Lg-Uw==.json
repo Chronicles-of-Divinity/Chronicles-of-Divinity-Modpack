@@ -1,0 +1,121 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7178074042484112353,
+      "questIDLow:4": -6822586613359575519
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You can either choose to read on, or watch the tutorial by Xogue on YouTube called \"Step by Step: Blood Magic Tier 6 || Demon Invasion || (Tutorial)\". Link: http://www.youtube.com/watch?v\u003dzV6bKr3nAIY                          Great! You chose my tutorial. I will still give you a link to the FTB Explanation site: http://ftbwiki.org/Convocation_of_the_damned                          [Step 1] First, craft at least 25 Runes of the Orb (check the Runes of the Orb section). [Step 2] Craft 8 Crystal Belljars and an Alchemic Calcinator. Right click the Blood Orb on the Calcinator. This will supply it with Life Essence from your own internal storage. Now funnel 16 of 8 types of alchemical ingredients into the Calcinator through a Hopper or a Transfer Node. (These ingredients are: Terrae, Sanctus, Aether, Aquasalus, Potentia, Incendium, Magicales, and Tenebrae.) Then place a Crystal Belljar near it, and use an alchemic Segmenter to shift right click the Calcinator and right click the Crystal Belljar, then use an Alchemic Router to shift right click, then right click the Calcinator, then right click the Crystal Belljar. This will funnel the alchemical ingredient into the belljar. Once the first ingredient is done, you need to clear the Alchemic Router by shift right clicking in the air, and you need to clear the Calcinator by right clicking on it with the Alchemic Cleanser. Then you can start doing the next one. Repeat until you have 8 full Crystal Belljars. (You might want to craft multiple Alchemic Calcinators to speed up the process.) [Step 3] Summon the Fallen Angel using your Arcane Pedestal setup with 3 Sanctus, 1 Aether, 1 Terrae, and 1 Tenebrae. Fight it and obtain the Demon Crystal. [Step 4] Go very far away from your base (maybe to another dimension), and bring the following items with you: 2 stacks of Ritual Stones, 1 Master Ritual Stone, 1 Ritual Diviner (that can place Dusk Runes) or 5 Elemental Inscription Tools (Water, Fire, Earth, Air \u0026 Dusk), 4 Alchemy Relays, 4 Levers, your 8 Filled Crystal Belljars, your Alchemic Router, Segmenter \u0026 Cleanser, your Demon Crystal, your Awakened Activation Crystal (which is bound to you), a Blood Altar, a Dagger of Sacrifice, a stack of building blocks, some weapons, and other survival tools. Make sure you also have at least 15 million LP in your internal storage. [Step 5] Once you arrived at you location, setup the Convocation of the Damned Ritual either manually or with your Ritual Diviner, and place the Crystal Belljars on top of the Dusk Ritual Stone Pillars (the order doesn\u0027t matter), then place the 4 Alchemy Relays on top of the closest Air Ritual Stones to the Master Ritual Stone, then place and activate 4 levers next to all 4 Alchemy Relays. [Step 6] You\u0027re gonna have to do these steps very fast: Shift right click and right click with your Alchemic Router on one of the Crystal Belljars, then right click on the closest Alchemy Relay. Clear the selection by shift right clicking in the air, shift right click and regular right click on the other closest Crystal Belljar, then right click on the Relay. Do this for all 4 Relays. If you did it correctly there should be 2 different ingredients in the Relay, and not 2 of the same one. It\u0027s okay if you messed up though, just read on. [Step 7] For the Alchemy Relays that you linked correctly, shift right click in the air to clear you selection, shift right click and right click on the Relay, right click on the Master Ritual Stone, shift right click on the Relay again, and right click on the Master Ritual Stone again. For the Alchemy Relays that you didn\u0027t link correctly, shift right click and right click on the Relay, right click on the Master Ritual Stone, shift right click on the Crystal Belljar that contains the ingredient you haven\u0027t correctly routed to the Relay, and right click straight on the Master Ritual Stone. Do this for all 4 Relays. [Step 8] Place a Blood Altar on the Master Ritual Stone, make sure you have over 15 million LP and a bound Awakened Activation Crystal, and right click on the side of the master Ritual Stone. Then deactivate all 4 levers. Wait until the thunderstorm goes away and your Crystal Belljars empty. [Step 9] Build a structure by the Blood Altar so that a 2-tall mob can stay on it without escaping. Summon the Fallen Angel on top of the Altar with the Demon Crystal and kill it with the Dagger of Sacrifice. Once you\u0027ve done that, a Demon Portal will spawn, and very soon after a big structure will spawn, so make sure to back away. [Step 10] Let the Demon Village form, collect some Life Shards and Soul Shards that they drop, and collect the Demon Portal with a pickaxe. It\u0027s gonna take a while to break, but it is collectible. Congratulations! You\u0027ve just completed this quest!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:demonPortalMain"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Demon Portal",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2152199800324244857,
+  "questIDLow:4": -8810668093304455597,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 8265,
+          "OreDict:8": "",
+          "id:8": "minecraft:potion"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 28,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicBaseItems"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 29,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:bloodMagicBaseItems"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockCapBank",
+          "tag:10": {
+            "storedEnergyRF:3": 25000000,
+            "type:8": "VIBRANT"
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ExtraUtilities:drum",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 256000,
+              "FluidName:8": "life essence"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:demonPortalMain"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:itemAttunedCrystal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:itemTankSegmenter"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:itemDestinationClearer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

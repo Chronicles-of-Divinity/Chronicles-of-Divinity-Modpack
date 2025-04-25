@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -5896545701500006623,
+      "questIDLow:4": -7295398006930475086
+    },
+    "1:10": {
+      "questIDHigh:4": -2985957583076833849,
+      "questIDLow:4": -5121527297096271526
+    },
+    "2:10": {
+      "questIDHigh:4": -6995803221948676101,
+      "questIDLow:4": -7576474255730493057
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Create a Bound Blade with the Binding Ritual. You will need to defeat the King of Scorchers multiple times for this weapon (check the Exploration Tab), and setup the Binding Ritual. http://ftbwiki.org/Ritual_of_Binding  Make sure to also bind this item to yourself with shift right click. When activated with the same combination of buttons, you can use your Sword to attack mobs, but the Sword constantly uses Life Essence from your internal storage. Shift right click again, and it won\u0027t use anymore Life Essence.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:energySword"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Bound Blade",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1914950018942453937,
+  "questIDLow:4": -6656418092135352139,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cake"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:energySword"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

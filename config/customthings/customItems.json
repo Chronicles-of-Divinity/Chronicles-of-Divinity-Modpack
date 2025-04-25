@@ -1,0 +1,129 @@
+{"data":
+    [
+            {
+                "name": "siliconball"
+            },
+            {
+                "name": "plasticine"
+            },
+            {
+                "name": "mixedplasticine"
+            },
+            {
+                "name": "plasticrystal",
+                "rarity": "rare"
+            },
+            {
+                "name": "zivi1",
+                "rarity": "common"
+            },
+            {
+                "name": "zivi2",
+                "rarity": "common"
+            },
+            {
+                "name": "zivi3",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "zivi4",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "zivi5",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "zivi6",
+                "rarity": "rare"
+            },
+            {
+                "name": "zivi7",
+                "rarity": "rare"
+            },
+            {
+                "name": "zivi8",
+                "rarity": "rare"
+            },
+            {
+                "name": "zivi9",
+                "rarity": "epic"
+            },
+            {
+                "name": "zivi10",
+                "rarity": "epic"
+            },
+			{
+                "name": "arlemiteDust"
+            },
+			{
+                "name": "realmiteDust"
+            },
+			{
+                "name": "rupeeDust"
+            },
+			{
+                "name": "netheriteDust"
+            },
+			{
+                "name": "corruptedDraconiumIngot"
+            },
+			{
+                "name": "deathCore"
+            },
+			{
+                "name": "corruptedCore"
+            },
+			{
+                "name": "demonicGem"
+            },
+			{
+                "name": "compressedCapacitor"
+            },
+			{
+                "name": "megaCompressedCapacitor"
+            },
+			{
+                "name": "ultraCompressedCapacitor"
+            },
+			{
+                "name": "lambCrystal"
+            },
+			{
+                "name": "necromanticShard",
+                "enchanted": true
+            },
+			{
+				"name": "zzacharCrystal",
+				"rarity": "common"
+			},
+			{
+				"name": "moltenZzacharium",
+				"rarity": "common"
+			},
+			{
+				"name": "platelessMoltenZzacharium",
+				"rarity": "common"
+			},
+			{
+				"name": "zzacharium",
+				"rarity": "uncommon"
+			},
+			{
+				"name": "compressedZzacharium",
+				"rarity": "uncommon"
+			},
+			{
+				"name": "zzachariumChain",
+				"rarity": "rare"
+			},
+			{
+				"name": "poppetImbuer",
+				"rarity": "epic"
+			},
+			{
+				"name": "ichorBulb",
+				"rarity": "epic"
+			}
+    ]
+}

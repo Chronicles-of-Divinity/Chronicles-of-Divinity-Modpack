@@ -1,0 +1,75 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 133537197898024576,
+      "questIDLow:4": -6594410741190972941
+    },
+    "1:10": {
+      "questIDHigh:4": 74191112160299102,
+      "questIDLow:4": -7524885680729526844
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Enter Eden. Don\u0027t forget to bring a Jetpack. Collect some Eden Ore, and defeat some mobs. You\u0027ll need at least 10 Eden Blocks to be able to continue to the next Twilight Dimensions, Wildwood. Consider using a Powered Spawner for mobs that drop Eden Souls if you\u0027re low on Eden Fragments.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "divinerpg:edenBlock"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "EDEN: The start of Twilight",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 551043129799625396,
+  "questIDLow:4": -4916787638832882463,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "ThermalExpansion:capacitor",
+          "tag:10": {
+            "Energy:3": 400000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": 50,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Enter Eden",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

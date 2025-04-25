@@ -1,0 +1,68 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7678249717846687411,
+      "questIDLow:4": -7354003696317246208
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Now that you have managed to craft a Beacon, it\u0027s time to use it! How, you might say? Well, isn\u0027t it obvious that you sorround a 2x2 pool of water with flowers, then throw the Beacon in the pool to create a portal to the Twilight Forest? No? Okay, well that\u0027s what you gotta do anyway.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:beacon"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A Beacon",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -9154684518197671776,
+  "questIDLow:4": -6512926761382940842,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenBlocks:luggage"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": -7,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Twilight Forest",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here. Examples of recipes can be found in the
+  AlloySmelterRecipes_Core.xml and general format documentation in the SAGMillRecipes_Core/User.
+
+  As well as adding custom recipes to the operation of the Alloy Smelter, a vanilla furnace recipe can be controlled.
+  It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false" />
+
+  It is also possible to selectively disable vanilla furnace recipes. The following example disables the smelting of iron
+  ingots, ender pearls, and any form of iron ore registered in the ore dictionary.
+
+  <vanillaFurnaceRecipes>
+
+	<exclude>
+      <itemStack modID="minecraft" itemName="iron_ingot" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
+      <itemStack oreDictionary="oreIron" />
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+
+  Add this line to disable the creation of TE alloys using the Alloy Smelter.
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+
+-->
+
+<AlloySmelterRecipes>
+
+<recipeGroup name="Alloys">
+  <recipe name="Mangalloy" energyCost="4000"> 
+      <input>
+        <itemStack modID="quantumflux" itemName="mangalloyIngot" />
+        <itemStack modID="divinerpg" itemName="apalachiaSoul" />
+        <itemStack modID="Botania" itemName="manaResource" itemMeta="8" />
+      </input>
+      <output>
+        <itemStack modID="quantumflux" itemName="glowingMangalloy" />
+      </output>
+  </recipe>
+</recipeGroup>
+
+<recipeGroup name="Ender">
+  <recipe name="Eye" energyCost="6000"> 
+      <input>
+        <itemStack modID="minecraft" itemName="blaze_powder" />
+        <itemStack modID="minecraft" itemName="ender_pearl" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="ender_eye" />
+      </output>
+  </recipe>
+</recipeGroup>
+
+<recipeGroup name="Thaumcraft">
+  <recipe name="SalisMundus" energyCost="8000"> 
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="6" />
+        <itemStack modID="quantumflux" itemName="glowingMangalloy" />
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="14" />
+      </output>
+  </recipe>
+</recipeGroup>
+
+<recipeGroup name="Draconic">
+  <recipe name="Chaos" energyCost="12000"> 
+      <input>
+		<itemStack modID="DraconicEvolution" itemName="awakenedCore" number="4" />
+        <itemStack modID="DraconicEvolution" itemName="chaosShard" number="4" />
+      </input>
+      <output>
+        <itemStack modID="DraconicEvolution" itemName="chaoticCore" />
+      </output>
+  </recipe>
+</recipeGroup>
+
+</AlloySmelterRecipes>

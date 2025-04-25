@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "Explore all the available dimensions! Travel to basic vanilla dimensions, fight bosses, explore all DivineRPG dimensions, Runic Dungeons and the Twilight Forest! You will need to visit this chapter quite often, as you get stronger and stronger through all the avaiable mods, and as you need more and more items from different dimensions!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:book"
+      },
+      "name:8": "Exploration",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": 268909386067887777,
+  "questLineIDLow:4": -8119825781496438845
+}

@@ -1,0 +1,63 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1634943017441279983,
+      "questIDLow:4": -4942987150558241921
+    },
+    "1:10": {
+      "questIDHigh:4": 4341026200585912964,
+      "questIDLow:4": -7624737386151490413
+    },
+    "2:10": {
+      "questIDHigh:4": -393172670191222151,
+      "questIDLow:4": -4935998950941796448
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an Imaginary Time Block. This machine significantly increases all seed\u0027s growth speed around it, but requires a lot of energy to use.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "quantumflux:imaginaryTime"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Imagine if Time went faster",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7344826032060384594,
+  "questIDLow:4": -9127496642499745348,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "quantumflux:imaginaryTime"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

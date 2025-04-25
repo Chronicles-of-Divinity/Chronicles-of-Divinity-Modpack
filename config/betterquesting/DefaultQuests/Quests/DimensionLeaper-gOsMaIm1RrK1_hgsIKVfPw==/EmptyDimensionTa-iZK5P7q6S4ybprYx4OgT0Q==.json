@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8902973013684171233,
+      "questIDLow:4": -6145555695775977152
+    },
+    "1:10": {
+      "questIDHigh:4": 5856479551077171374,
+      "questIDLow:4": -4951296864078733180
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an Empty Dimension Tab. These are used to create custom dimensions in the Dimension Enscriber. You can use Dimlets to specify the Dimensions attributes, but if you don\u0027t, these attributes will be randomized. I recommend creating an automized Ender Dragon farm with Block Placers to ressurect the Dragon using the Draconic Evolution method, and an Autonomous Activator with a fully maxed out Draconic Bow to oneshot the Dragon. All this, because you will need lots of Dragon Hearts.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "rftools:emptyDimensionTab"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Empty Dimension Tab",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8533554660546819188,
+  "questIDLow:4": -7230891826353794095,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "rftools:unknownDimlet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "rftools:emptyDimensionTab"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

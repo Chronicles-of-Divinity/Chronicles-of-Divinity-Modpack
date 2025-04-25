@@ -1,0 +1,68 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 551043129799625396,
+      "questIDLow:4": -4916787638832882463
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Enter Wildwood. Collect some Wildwood Fragments to be able to progress into the next Twilight Dimension, Apalachia. If you\u0027re not strong enough to survive yet, progress further in the other Magic Mods first.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "divinerpg:wildwoodBlock"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "WILDWOOD: Blue sky \u0026 Blue land",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -1634943017441279983,
+  "questIDLow:4": -4942987150558241921,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:serenadeOfHealth"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": 51,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Enter Wildwood",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

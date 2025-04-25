@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2806828176483988029,
+      "questIDLow:4": -7449121057256797652
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Setup a Circle of Arcane Pedestals around your Arcane Plinth in an enclosed area. http://ftbwiki.org/Summoning         Use 6 of the same type of alchemical ingredient (Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus) to summonan elemental of that type (I recommend Terrae, that\u0027s the easiest to fight). If you have enough Life Essence in your internal storage, then you can place a bound Blood Orb on the middle Arcane Plinth to summon an Elemental. These mobs can fly and are very small, deal a significant amount of damage and apply some sort of debuff (Terrae summons the Earth Elemental and only applies Slowness). Once you kill it, you have about a 50% chance to obtain a Demon Blood Shard (does not have to be killed with the Bound Sword).",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:demonBloodShard"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Demon Blood Shard",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4435693831607042689,
+  "questIDLow:4": -6875166037620825476,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:pardimalHammer"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:demonBloodShard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

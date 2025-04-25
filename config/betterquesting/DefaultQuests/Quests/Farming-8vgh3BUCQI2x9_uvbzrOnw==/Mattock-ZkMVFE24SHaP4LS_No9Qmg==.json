@@ -1,0 +1,127 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7193533506614741824,
+      "questIDLow:4": -7264478986256133405
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Make a Tinker\u0027s Construct Mattock.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:mattock",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:3": 2,
+            "Attack:3": 6,
+            "BaseAttack:3": 6,
+            "BaseDurability:3": 487,
+            "BonusDurability:3": 0,
+            "Broken:1": 0,
+            "Built:1": 1,
+            "Damage:3": 0,
+            "Handle:3": 2,
+            "HarvestLevel:3": 2,
+            "HarvestLevel2:3": 2,
+            "Head:3": 2,
+            "MiningSpeed:3": 600,
+            "MiningSpeed2:3": 600,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 3,
+            "RenderAccessory:3": 2,
+            "RenderHandle:3": 2,
+            "RenderHead:3": 2,
+            "Shoddy:5": 0.0,
+            "TotalDurability:3": 487,
+            "Unbreaking:3": 1
+          },
+          "display:10": {
+            "Name:8": "�fIron Mattock"
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Mattock",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7368756592255715446,
+  "questIDLow:4": -8079258998155554662,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cookie"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:mattock",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:3": 2,
+              "Attack:3": 6,
+              "BaseAttack:3": 6,
+              "BaseDurability:3": 487,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "Handle:3": 2,
+              "HarvestLevel:3": 2,
+              "HarvestLevel2:3": 2,
+              "Head:3": 2,
+              "MiningSpeed:3": 600,
+              "MiningSpeed2:3": 600,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 3,
+              "RenderAccessory:3": 2,
+              "RenderHandle:3": 2,
+              "RenderHead:3": 2,
+              "Shoddy:5": 0.0,
+              "TotalDurability:3": 487,
+              "Unbreaking:3": 1
+            },
+            "display:10": {
+              "Name:8": "�fIron Mattock"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

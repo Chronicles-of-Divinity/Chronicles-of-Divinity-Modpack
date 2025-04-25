@@ -1,0 +1,85 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 463603418714819156,
+      "questIDLow:4": -8257083418647932283
+    },
+    "1:10": {
+      "questIDHigh:4": -8646064803124983902,
+      "questIDLow:4": -7280691181538677507
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft a Lexica Botania. If you ever have questions with the mod, this book will answer it for you. If you go to the Lexicon Index, you can type something on your keyboard and the book will search for that term. If you don\u0027t find enough information in the quest book, look into the Lexica Botania.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Botania:lexicon"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Botanist\u0027s Guide",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3046030715565064915,
+  "questIDLow:4": -7982805986355951575,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "OreDict:8": "",
+          "id:8": "Botania:flower"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "Botania:flower"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 10,
+          "OreDict:8": "",
+          "id:8": "Botania:flower"
+        }
+      },
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:lexicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

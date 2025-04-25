@@ -1,0 +1,69 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7720490186989848806,
+      "questIDLow:4": -8530626124325226582
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Create a Node Transducer. When You have a buffed up Node placed on an Advanced Node Stabilizer, you can use a Node Transducer above the Node, and when the Transducer gets powered with a redstone signal, the Node will start being transformed into an Energized Node. These Nodes can power your Advanced Alchemical Furnace later on.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:blockStoneDevice"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Node Transducer",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1984719585253279848,
+  "questIDLow:4": -9222309294651426014,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:forestDrum"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:blockStoneDevice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

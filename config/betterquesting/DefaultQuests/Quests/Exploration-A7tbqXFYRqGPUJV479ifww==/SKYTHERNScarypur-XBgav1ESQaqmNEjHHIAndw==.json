@@ -1,0 +1,68 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5606905871868576912,
+      "questIDLow:4": -5098934581156706796
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Enter Skythern. Collect enough Skythern Fragments to be able to continue to Mortum.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "divinerpg:skythernBlock"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "SKYTHERN: Scary pure lands",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6636083459931652522,
+  "questIDLow:4": -6470466744610707593,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:bedrockSword"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": 53,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Enter Skythern",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6055829528547211197,
+      "questIDLow:4": -7674801619229143360
+    },
+    "1:10": {
+      "questIDHigh:4": 8200704050621925152,
+      "questIDLow:4": -9142358974467622301
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft a Nightmare Bed and enter Vethea! Remember from your Witchery dreams, even though you\u0027re dreaming and your inventory doesn\u0027t travel with you, you keep you clothes - as well as you belt - on. Use this to your advantage.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "divinerpg:nightmareBed"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Nightmares begin...",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 5947127588296806287,
+  "questIDLow:4": -6474905082912633337,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:travelBelt",
+          "tag:10": {
+            "RepairCost:3": 2,
+            "TinkerAccessory:10": {
+              "BaseDurability:3": 500,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 5,
+              "TotalDurability:3": 500
+            },
+            "display:10": {
+              "Name:8": "May I help?"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "divinerpg:nightmareBed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3816348174236695900,
+      "questIDLow:4": -7043630823103393976
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an Ichorium Adorned Ichorcloth Strapped Silverwood Wand using two Ichorium Caps and Ichorcloth Strapped Silverwood Wand Core. This item isn\u0027t shown in NEI, requires 100 of each Aspect (without cost reductions), and can store 1000 of each Aspect.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 100,
+        "OreDict:8": "",
+        "id:8": "Thaumcraft:WandCasting",
+        "tag:10": {
+          "cap:8": "ICHOR",
+          "rod:8": "ICHORCLOTH"
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Ichorium A.I.S.S. Wand",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7941028799080805890,
+  "questIDLow:4": -9111403334915182649,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "Botania:manaResource"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 100,
+          "OreDict:8": "",
+          "id:8": "Thaumcraft:WandCasting",
+          "tag:10": {
+            "cap:8": "ICHOR",
+            "rod:8": "ICHORCLOTH"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

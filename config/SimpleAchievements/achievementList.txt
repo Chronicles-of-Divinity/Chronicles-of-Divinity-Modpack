@@ -1,0 +1,337 @@
+====== WELCOME TO ====== ===== DIVINE JOURNEY ===== A modpack by Atricos::1
+"An Adventure and a Challenge in one" - would be the best way to describe the Divine Journey modpack. Modpacks like FTB Infinity Evolved Skyblock and Project Ozone 2 inspired me to create it, which are also modpacks that include modified recipes through MineTweaker.::0
+::0
+::0
+::0
+Divine Journey, as well as the ones listed before, have a direct line of progression through all installed mods, and at the end, have a way of crafting otherwise uncraftable items - Divine Journey makes almost all Creative Items available for crafting. To achieve this, it will be even more difficult than normally, because recipes are expensive and hugely rely on other mods.::0
+::0
+::0
+The goal of the modpack can be explained in a couple words: ::0
+"Make Infinite Infinity Ingots."::3
+- achieved by first making one, and putting it into a Creative Strongbox.::0
+::0
+::0
+::0
+Divine Journey, the name, came from DivineRPG, one of the included mods. In order to accomplish your goals, you will need to travel through all of DivineRPG, as well as some other exploration oriented mods and dimensions, like Runic Dungeons, Twilight Forest, the Deep Dark, the Eldritch Dimension, the Dream World, Torment's Maze, and RFTools Worlds.::0
+::0
+And this book will be your guide through the journey. If you're unsure about a specific mod, or don't know how to progress, look up the point you're at in this book by the achievement section to find out what the next step is.::0
+This pack currently features 2 modes, easy and hard (default is hard). To switch between the modes, use::0
+"/ftb_mode set easy" or "/ftb_mode set hard".::3
+::0
+You will need to automate almost everything to be able to progress further, and you've been given the tools to do so.::0
+You can gather resources using VeinMiner, AgriCraft, MagicalCrops, the Builder, the Ender Quarry, and RFTools Dimensions.::0
+You can Autocraft and Autoprocess with Applied Energistics 2 and automate everything with Thermal Expansion, EnderIO, MineFactory Reloaded, Botania, RFTools, Extra Utilities, and so on.::0
+It's possible to simply progress through the modpack by just looking at Creative recipes and the Infinity Ingot recipe in NEI, and check the progression to get there.::0
+Under certain items in NEI, I included Tooltips, especially by DivineRPG items that drop from bosses or are required to progress through the dimensions.::0
+This book contains information about your progression, in the form of a quick summary (next 2 pages), and in the form of checkable achievements (rest of the book). If you ever lose this book, it is craftable, using a book and two purple dyes.::0
+::0
+======== Summary about the::1
+1. Tinker's Construct           2. Thermal Expansion          3. Ender IO                      4. QuantumFlux, MineFactory     Reloaded, Runic Dungeons,     Big Reactors, Simply            Jetpacks                        5. Iceika Dimension               6. Blood Magic (Early)          7. Applied Energistics 2        8. Eden Dimension              9. Botania (Early)              10. Magical Crops (Early)    11. Wildwood Dimension       12. Blood Magic (Late)      13. Twilight Forest               14. Botania (Late) ::4
+::0
+line of progression =======::1
+15. Apalachia Dimension     16. Thaumcraft (Early)     17. The Deep Dark            18. Skythern Dimension       19. Thaumcraft (Late)        20. Thaumic Energistics      21. Magical Crops (Late)     22. The End Dimension       23. Thaumic Tinkerer         24. Mortum Dimension          25. Witchery (Early)         26. Dungeon of Arcana     27. Witchery (Late)           28. Vethea Dimension,                 Draconic Evolution      29. RFTools Dimensions      30. Creative Items::4
+= Line of progression with = = checkable achievements =::1
+If you'd like, you can check the box next to each point, to indicate you've accomplished something. It's not obligatory, but you have the option to do so. ;)::0
+1. Punch wood.::2
+2. Craft basic Stone Tools.::2
+3. Go on your first mining adventure.::2
+4. Setup a simple base. (Look around first to be able to avoid Tainted Land.)::2
+5. Craft a Furnace and smelt some Iron Ore for an Iron Pickaxe.::2
+6. Veinmine Gravel, Sand & Clay to craft Grout. Smelt Grout to make Seared Bricks.::2
+7. Setup a Tinkers' Construct Smeltery.::2
+8. Collect Lava for your Smeltery.::2
+9. Setup the 5 basic Tinkers' Tool Creation tables.::2
+10. Make a Liquid Transfer Node and import Lava & Water into your smeltery to create Obsidian.::2
+11. Make Alumite in your smeltery, and use it to craft Alumite Tools.::2
+12. Mine Titanium, Obsidian, Rupee, Arlemite & Realmite Ore.::2
+13. Make some power generating machine (like an Ender IO Stirling Generator), a Pulverizer and a Redstone Furnace.::2
+14. Make an Induction Smelter, Magma Crucible & Fluid Transposer.::2
+15. Make an Alloy Smelter & SAG Mill.::2
+16. Setup a basic 3x3x3 Big Reactor to power your machines.::2
+17. Create basic vanilla farms.::2
+18. Make better Tinker's Construct weapons (maybe consider Beheadding) and a Bow or Crossbow.::2
+19. Make a Jetpack or a Hang Glider to have some way of early game flight.::2
+20. Build a Nether Portal, find a Nether Fortress, and grab some Blaze Rods & Wither Skeleton Heads. Watch out for DivineRPG mobs, you probably want to avoid them for now.::2
+21. Build a simple automatic Cobblestone Generator. You can use a Transfer Node with a World Interaction upgrade or Cobblestone Frameworks.::2
+22. Use Crafters or Compacting Drawers to compress your Cobblestone.::2
+23. Use your Cobblestone to automatically create Seared Bricks in your Smeltery. Automatically extract the Seared Bricks with a redstone clock. You can even setup a separate Smeltery for this.::2
+24. Explore your surroundings, find a Desert Pyramid, a Jungle Temple, or a Blacksmith Chest to get some Magical Chalk.::2
+25. Make even better gear, and setup a Runic Dungeons Portal. Raid the dimension.::2
+26. Craft a better jetpack or a JetPlate.::2
+27. Brew some potions and kill the Wither (either in a Runic Dungeons room where it can spawn, or naturally).::2
+28. Activate your Division Sigil from the Wither, and collect some Cursed Earth with a Silk Touch shovel.::2
+29. Craft a Healing Axe (great for Blood Magic), and maybe some other Unstable Ingot Tools (like a Builder's Wand).::2
+30. Make a mob farm using Cursed Earth, that automatically collects and stores drops.::2
+31. Create a Portal to Iceika. Use Snow Blocks in a Nether Portal shape, and light the Portal with a Snow Globe. Once there, kill mobs to get Ice Shards and mine lots of Frozen Stone for Blood Magic.::2
+32. Make a Blood Altar and a Sacrificial Orb.::2
+33. Make Blood Runes to upgrade your Blood Altar to Tier 2.::2
+33. Craft an Inscriber and automatically import & extract items from it to craft different processors.::2
+34. Make an Item Fabricator and use it to craft components for an ME Drive.::2
+35. Make an Energy Acceptor and an ME Terminal to setup a simple ME System. Store your items in it.::2
+36. Make Crystal Growth Accelerators for Pure Certus Quartz and make and a Crafting Terminal.::2
+37. Upgrade your Big Reactor to have more fuel rods, some kind of a coolant, automate Yellorium importing and Cyanite exporting.::2
+38. Craft a Slice'n'Splice and a Soul Binder.::2
+40. Craft Capacitor Banks and a Power Monitor in order to not waste power from your Big Reactor.::2
+41. Setup automated crop farms using Ender IO Farming Stations or MineFactory Reloaded Planters and Harvesters.::2
+42. Make Self-Sacrifice Runes; or make Sacrifice Runes and lead mobs from your mob farm to your Blood Altar to gain more Life Essence.::2
+43. Make an RFTools Builder and a Shape Card (Quarry). Outline an area (you can right click on the edges with the Shape Card) and start quarrying. Use the Yellorium you get to generate more power.::2
+44. Craft more ME Storage Cells and automatically import items from your Quarry into your ME System.::2
+45. Make an Ender Chest and link an Ender Pouch to it. Connect your Ender Chest to your ME System through an Import Bus, so you can dump items into your Storage Cells from anywhere.::2
+46. Setup more Drives and connect Deep Storage Units to your ME System with Storage Buses to store items in them you have a lot of. Don't forget to set the priority higher on your Storage Buses than on your Drives.::2
+47. Setup ME Autocrafting with ME Interfaces and Molecular Assemblers for items your need a lot of.::2
+48. Setup ME Autoprocessing with ME Interfaces and other machines (like Redstone Furnace, Alloy Smelter, Slice'n'Splice...) for items you need a lot of.::2
+49. Fully automate ore processing from your Quarry and store the finished products in your ME System.::2
+50. Setup ME Level Emitters and automatically craft items if you have too few of them, without having to request them.::2
+51. Make Silk Touch Tinkers Tools, if you haven't already. You'll need a Silk Touch Pickaxe for Workshop Bookcases or a Silk Touch Axe for Ancient Bookshelves to craft a Creative Oak Bookcase in the future.::2
+52. Craft a couple Alchemic Chemistry Sets and use them to make Offensa. Now you can create Powered Spawners for mobdrops your need a lot of.::2
+53. Make better Blood Magic potions that you can use multiple times before they run out. You can name them with an Anvil so you always know which one's which.::2
+54. Kill lots of Scorchers in the Nether to get Purple Blaze, and craft an Infernal Flame.::2
+55. Using your Infernal Flame, summon the King of Scorchers in the Nether to get Fury Fire, and craft a Golden Fury.::2
+56. Setup the Ritual of Binding and use your Golden Fury to get a Bound Sword.::2
+57. Kill mobs with the Bound Sword to get Weak Blood Shards.::2
+58. Craft Filled Sockets and make all pieces of the Bound Armor. While crafting, consider upgrading it with Sigils to have permanent effects while wearing the armor.::2
+59. Kill lots of Enthralled Dramcryxes to get Corrupted Shards. They spawn at very low elevations in the overworld. Consider setting up a Powered Spawner for them.::2
+60. Make Mysterious Clocks, summon and kill the Ancient Entity multiple times, until you have enough Divine Shards for at least 10 Divine Rocks. (Don't worry, it's not a difficult boss fight.)::2
+61. Using the Divine Shards, make a Portal to Eden out of Divine Rocks in a Nether Portal shape. Light it with a Twilight Clock. Bring blocks and your jetpack with you, and collect some Eden Fragments from Eden Ore or Eden Souls.::2
+62. Advance to a Tier 4 Altar and Setup the Well of Suffering and the Ritual of Regeneration above or below your Altar. Get lots of entities you can damage and activate the Rituals to get infinite blood. (Alternatively use Witches, and then you won't need the Ritual of Regeneration).::2
+63. Craft a Petal Apothecary and a Lexica Botania.::2
+64. Use the Petal Apothecary to make a Pure Daisy.::2
+65. Convert materials around the Pure Daisy to make Livingrock and Livingwood.::2
+66. Make a Wand of the Forest.::2
+67. Craft a Mana Pool and Mana Generating flowers (Daybloom, Nightshade, Endoflame, or Hydroangeas).::2
+68. Craft a Mana Spreader and more Mana Pools. Connect your flowers to Mana Spreaders.::2
+69. Craft a Runic Altar.::2
+70. Craft better Mana Generating Flowers in the Runic Altar. (Endoflame, Gourmaryllis, Munchdew, etc.)::2
+71. Automatically feed your Mana Generating flowers.::2
+72. Craft a QED and Ender Flux Crystals to power it.::2
+73. Craft Infusion Stones to make Magical Crops Essences.::2
+74. Craft Magical Crops seeds using your Runic Altar.::2
+75. Setup automated Magical Crops farms using Ender IO Farming Stations.::2
+76. Use Cropsticks to turn a Magical Crops seed to an AgriCraft seed. Mutate it until its stats reach 10/10/10. (Later down the line, using a Clipper you can get more seeds from existing plants, so you don't thave  to craft them: see Achievement No. 168.)::2
+77. Craft AgriCraft Farming Stations to harvest your AgriCraft Magical Crops.::2
+78. Craft Growth Pulsers to further improve the growth speed of your crops.::2
+79. Upgrade your existing farms and setup full automation for treefarms using MineFactory Reloaded Planters and Harvesters.::2
+80. Craft a Magnum Torch to protect your base from mobs.::2
+81. Craft Eden Blocks and using them, create a Portal to Wildwood. It's a Nether Portal shape, lit by another Twilight Clock. Mine Wildwood ore or kill mobs to obtain Wildwood Fragments.::2
+82. Craft an Imaginary Time Block to even further improve the grwoth speed of your crops. Use a Tesseract with a lever to toggle it on and off, because it uses a lot of power.::2
+83. Craft a Terrestial Agglomeration Plate. Use it to make 1 Terrasteel Ingot.::2
+84. Make 6 Arcane Pedestals and use 2 RedAurum ingots to make an Arcane Plinth, and summon an Elemental. You'll need 6 of the same Alchemy materials.::2
+85. Fight elementals until you obtain some Demon Blood Shards. Note, that it's not a 100% drop.::2
+86. Craft 4 Beacons using some Mana Diamond to upgrade your Altar to Tier 5 and use your Demon Blood Shards and a RedAurum ingot to craft an Archmage's Blood Orb.::2
+86. Setup the Convocation of the Damned Ritual very far away from your base (maybe another dimension). Let the Demon Village extend and kill the Demons spawning to obtain Life Shards and Soul Shards.::2
+87. Craft a Portal to the Deep Dark.::2
+89. Craft an Ender Quarry and some Ender Quarry upgrades and use them to mine materials from the Deep Dark. (You can use a single Tesseract to send power to your Ender Quarry and retrieve items from it.)::2
+90. Craft another Beacon and use it to enter the Twilight Forest.::2
+91. Craft a Magic Map to more easily travel around the Twilight Forest.::2
+92. Find a Naga Courtyard and kill the Naga.::2
+93. Find a Lich Tower and slay the Lich at the top.::2
+93. Use the Lich's Scepter to clear away mosquitos in the swamp.::2
+94. Find the Maze Map Focus and craft yourself a Blank Maze Map.::2
+95. Deafeat the Minoshroom Boss to obtain Meef Stroganoff in the labyrinth, and use it so you can enter the Fiery Swamp.::2
+96. Find and defeat the Hydra in the middle of the Fiery Swamp.::2
+97. Enter the Dark Forest, break through the leaves, and find the entance of the Goblin Knight Stronghold. Place a Trophy you've previously earned on the Trophy Pedestal to remove the shield around the stronghold.::2
+98. Enter the Stronghold, find and defeat the Knight Phantom. Make sure to grab some Armor Shards, you'll need them later for Knightmetal Ingots.::2
+99. Find the Dark Tower in the center of the Dark Forest. Climb up and defeat the Ur-ghast.::2
+100. Enter the Snowy Forest, find and defeat the Alpha Yeti.::2
+101. Enter the Glacier biome, find the Icy Tower, and defeat the Snow Queen.::2
+102. Find the Troll's Cave in the Twilight Highlands biome, near the Thorns biome. Defeat the Troll and loot the regular Obsidian Box. Obtain Magic Beans and Uberous Soil.::2
+103. Locate the Giant's Cloud Cottage above the Twilight Highlands biome. Plant Magic Beans on Uberous Soil to climb up to the Cloud. Defeat the Giant Miner to obtain its Giant Pickaxe.::2
+104. Descend back down to the Mines, locate the Giant Obsidian Box. Break it with your Giant Pickaxe, and obtain the Lamp of Cinders.::2
+105. Use the Lamp of Cinders to turn Thorns into Ashes, and progress to the castle.::2
+106. Obtain Castle Bricks and Castle Roof Tiles for later crafting. You can also VeinMine these blocks.::2
+107. Find the Center of the Castle and the sign that says "Final Boss Here, You Win!". Blame the creator of Twilight Forest for not finishing his mod.::2
+108. Return home. Setup the Portal to Alfheim. Trade your Lexica Botania and other items to get more resources.::2
+109. Upgrade your Mana Spreaders to Elven Mana Spreaders.::2
+110. Craft Gaia Pylons, and fight the Gaia Guardian.::2
+111. Replace your Elven Mana Spreaders with Gaia Mana Spreaders.::2
+112. Make a Mana Tablet and Botania gadgets. (I recommend crafting a Globetrotter's Sash.)::2
+113. Connect an ME Interface to a Blood Altar and setup automatic crafting with the Blood Altar.::2
+114. Setup the Ballad of Alchemy Ritual to fully automate Alchemy. Connect an ME Interface to it and setup Alchemy recipes.::2
+115. Setup ME Interfaces to your Mana Pools. Fully automate regular Mana Infusing, and Alchemy & Conjuration Catalyst Mana Infusing.::2
+116. Setup ME Intefaces to your Runic Altars to automatically craft Runes.::2
+117. Automatically detect when you don't have enough Mana for crafting. Delay crafting until you automatically gain more Mana.::2
+118. Setup ME Interfaces to your Alfheim Portal. Fully automate recipes for it.::2
+119. Make an Apalachia Portal out of Wildwood Blocks, and light it with another Twilight Clock. Kill mobs or mine Apalachia Ore to get Apalachia Fragments.::2
+120. Craft an Iron Capped Wooden Wand and use it to turn a Bookshelf into a Thaumonomicon.::2
+121. Craft Thaumcraft Tables and regular Scribing Tools, use your wand to make an Arcane Worktable, and your Scribing Tools to make a Research Table.::2
+122. Craft a Thaumometer and start finding all the aspects.::2
+123. Fill up your wand by killing mobs while it's in your hotbar.::2
+124. Craft Goggles of Revealing. Seek Nodes around your base.::2
+125. Craft Thaumaturge Armor to gain a Vis discount when crafting.::2
+126. Make a Crucible by hitting a Cauldron with your Wand.::2
+127. Using items from your Crucible, craft an Alchemical Furnace and Arcane Alembics, to improve the creation of essentia.::2
+128. Upgrade your wand to a Gold Banded Greatwood Wand.::2
+129. Further improve your Alchemy, by creating an Alchemical Construct.::2
+130. Craft some Mnemonic Matrix blocks and place them on your Alchemical Construct, so each of them remember two formulas you've previously used.::2
+131. Make Gaia Spirit Ingots and fight the Gaia Guardian II. Obtain a Dice of Faith.::2
+132. Use your Dice of Faith to create a Runic Matrix. Setup an Infusion Altar, and sorround it with Jars of Essentia.::2
+133. Make the area around your Infusion Altar symmetrical, and place items (Skulls, Mixed Crystal Clusters, Tallow Candles) around, below, and above it to reduce the chance of your Arcane Infusion failing.::2
+134. Upgrade your wand to a Thaumium Bossed Silverwood Wand.::2
+135. Make a Skythern Portal out of Apalachia Blocks, and light it with another Twilight Clock. Kill mobs or mine Skythern Ore to get Skythern Fragments.::2
+136. Make Void Metal and craft Void Thaumaturge Armor to gain more Vis discount.::2
+137. Craft a Sanity Checker. Do more research so you get more and more insane.::2
+138. Once you're insane enough that an Eldritch Guardian spawns, capture it in a Soul Vial and create a Powered Spawner for it.::2
+139. Upgrade your wand to a Thaumium Bossed Infernal Wand or use a Silverwood Staff Core that can hold up to 250 of each aspect. (You can find the research under Thaumaturgy on the left coming out of Silverwood Wand Core.)::2
+140. Setup a Powered Spawner of Wisps for Thaumic Energistics items. You can find Wisps in the Nether and sometimes regular Wisp Spawners under Eldritch Obelisks.::2
+141. Craft ME Essentia Storage Cells and setup an area close to your Thaumcraft machines to store them in Drives.::2
+142. Craft Essentia Providers for your Alchemical Constructs, and an Infusion Provider for your Infusion Altar.::2
+143. Craft an Essentia Terminal and an Arcane Terminal. Connect a Vis Relay Interface and a Vis Relay to your Arcane Terminal.::2
+144. Capture Nodes in a Jar in the Overworld or in the Deep Dark.::2
+145. Use Node Stabilizers and Node Transducers to energize your captured Nodes. Connect the Energized Nodes to Vis Relays so they recharge your wand in your Arcane Terminal.::2
+146. Use 4 Eldritch Eyes on an Eldritch Obelisk to create an Eldritch Portal.::2
+147. Enter the Maze of the Eldritch Dimension, find the Runed Tablet and use it to open the Ancient Doorway.::2
+148. Defeat the Champion Eldritch Guardian and obtain the Primordial Pearl.::2
+149. Use the Primordial Pearl to create an Advanced Alchemical Furnace.::2
+150. Power your Advanced Alchemical Furnace with Energized Nodes through Vis Relays.::2
+151. Craft ME Essentia Import Buses for your Advanced Alchemical Furnace and connect it to your Thaumic Energistics system.::2
+152. Fully automate the creation of Thaumium and Void Metal.::2
+153. Fully automate Wand Charging.::2
+154. Craft a Knowledge Inscriber and a Distillation Pattern encoder.::2
+155. Using Arcane Assemblers, fully automate Arcane crafting, and setup recipes for it.::2
+156. Setup ME Essentia Level Emitters to indicate if you're low on one type of Essentia, and trigger autocrafting of that Essentia using your Advanced Alchemical Furnace.::2
+157. Fully automate Thaumcraft Alchemy recipes, so you can request them from your ME System.::2
+158. Fully automate Thaumcraft Infusion recipes, so you can request them from your ME System.::2
+159. Craft Eyes of Ender to find the End Portal. (Yes, you don't need to do it any earlier than this.)::2
+160. Defeat the Ender Dragon.::2
+161. While in the End, mine some Draconium Ore.::2
+162. Create a Nether Shard and Ender Shard farm, held rarely by Zombie Pigmen in the Nether, and Endermen in the End.::2
+163. Create Ichor, Ichorcloth and Ichorium.::2
+164. Craft an Ichorcloth Strapped Silverwood Wand that can hold up to 1000 of each aspect.::2
+165. Craft Zivicio Armor. Use it when you need creative flight.::2
+166. Find a way to automate the creation of Ichorium using Thaumic Energistics.::2
+167. Create higher tier Magical Crops seeds with your Infusion Altar, turn them into AgriCraft seeds, plant them and automatically harvest them.::2
+168. Craft a Clipper. Now you don't have to craft each individual Magical Crops Seed again, you can get Clippings from ones that are planted on Crop Sticks.::2
+169. Make a Mortum Portal out of Skythern Blocks, and light it with another Twilight Clock. Kill mobs or mine Mortum Ore to get Mortum Fragments.::2
+170. Create automated farms for Belladona, Water Artichoke, Snowbell, Wolfsbane and Garlic.::2
+171. Make a Powered Spawner for Mandrakes.::2
+172. Craft a Witches Oven.::2
+173. Craft Anointing Paste to turn a Cauldron into a Witches Cauldron.::2
+174. Make Mutandis.::2
+175. Use Mutandis on tallgrass to obtain Rowan Saplings, Alder Saplings, Hawthorn Saplings, Spanish Moss, Glint Weed, and Ember Moss.::2
+176. Make automated treefarms for Witchery trees, and plant Spanish Moss, Glint Weed and Ember Moss so it can spread.::2
+177. Craft a Witchery Altar and sorrund it with a bunch of plants. Variety helps.::2
+178. Further upgrade the power of your Witchery Altar by putting a Player Head, a Chalice, a Candelabra, a Dragon Egg and an Arthana on top of it.::2
+179. Make a Distillery and a Kettle.::2
+180. Upgrade your Chalice into a Filled Chalice.::2
+181. Find Hobgoblins, leash them and give them a Pickaxe so they're forced to mine. Collect any Koboldite Dust they find.::2
+182. Trade Koboldite Dust with Hobgoblins to get Koboldite Nuggets, and eventually Koboldite Ingots.::2
+183. Replace the Hobgoblins' Pickaxes with Koboldite Pickaxes to make them mine faster.::2
+184. Craft or trade Koboldite Nuggets and eventually Koboldite Ingots.::2
+185. Craft a Pentacle to fully upgrade your Altar.::2
+186. Craft a Spinning Wheel and make a Witches Hat and Witches Robes to gain a chance to get more brews when using the Kettle.::2
+187. Brew lots of Brews of Sleeping.::2
+188. Fall asleep, and enter the Dream World. Bring an Icy Needle with you. While running away from the Nightmare, collect some Disturbed Cotton.::2
+189. Craft a Dream Weaver of Nightmares and place it close to where you sleep.::2
+190. Enter the Dream World. If it's still a nightmare, wake up, and try again, until you have a nice dream. Collect some Wispy Cotton.::2
+191. Find out that including your clothes, your Tinkers Belt also doesn't dissapear when entering the Dream World. Use it to your advantage.::2
+192. Create Brews of Flowing Spirit in the Dream World. After you wake up, create ponds of them around your sleeping area, to make nightmares even less frequent.::2
+193. Use Soul Vials to capture Spirits that fly around int he Dream World. Once awake, setup a Powered Spawner for them to obtain lots of Subdued Spirit for later crafting.::2
+194. Create a spawner for Bats to get Wool of the Bat and Hellhound to get Tongue of the Dog.::2
+195. Create an automatic system that slays mobs with an Arthana to get lots of Spectral Dust.::2
+196. Craft a Mutating Sprig. Use it to make Wormwood. Make an automatic farm for Wormwood.::2
+197. Craft a Brazier. Use it to summon a Spectre, a Banshee, and a Poltergeist. Capture them in a Soul Vial. The book 'Conjuration & Fetishes' explains the process.::2
+198. Make a toggleable automatic spawner for Spectres, Banshees, and Poltergeists. Setup the Rite of Binding to bind 5 of each of the spectral creatues to a Scarecrow. When activating the Ritual, Death spawns. Defeat Death.::2
+199. Setup an automated way of summoning Death, and defeat him multiple times. You'll need some Hands of Death for a future recipe.::2
+200. Setup the Rite of Summoning to summon a Demon (Circle Magic, Page 50). Trade something for its Heart. Warning: Demons have an explosive nature.::2
+201. Using Demonic Blood, summon an Imp (Circle Magic, Page 51). Sign a Demonic Contract with it. (Craft a Demonic Contract with your Taglock Kit.)::2
+202. Give additional Contracts crafted with special Components to your Imp (Blaze Rod + Ember Moss, Lava Bucket, Blaze Rod + Hint of Rebirth, Blaze Rod + Magma Cream, Blaze Powder) for special effects.::2
+203. Collect the gifts your Imp gives you. Wait until you get a scroll called 'Torment'.::2
+204. Use your Torment scroll in the center of a Stone Brick circle in the overworld to enter the Prison of Torment.::2
+205. Defeat the Lord of Torment and obtain its Soul for later crafting.::2
+206. Find a way to automate the creation of items acquired through Circle Magic. Especially the creation of Necromantic Stones.::2
+207. Summon Shade of Leonard with a Cauldron Ritual that has a Level 12 Effect. (Read the Witches' Brews book -> Effects -> Level 12. Use Nether Wart, Tear of the Godess, Diamond Vapor, Diamond, Nether Star, and a Witches Hat.)::2
+208. Defeat Leonard and collect his Urn for later crafting.::2
+209. Use the Rite of Binding to turn a tamed owl, toad or cat into a familiar.::2
+210. Once you have a familiar, Coven Witches will talk to you. Convince 6 of them to join your coven.::2
+211. Craft a Seer Stone (Circle Magic, Page 64) to be able to call your coven whenever you need to.::2
+212. Use the Curse of the Wolf (Circle Magic, Page 81) on yourself to become a Werewolf.::2
+213. Craft a Wolf Altar to be able to level up your Werewolf level.::2
+214. Advance to a Lv2 Werewolf, kill some sheep, and obtain Lambchop for later crafting.::2
+215. Use the Rite of Remove Curse (Circle Magic, Page 87), to turn back into a Human from Werewolf and setup ME Autocrafting for duplicating Lambcrystals.::2
+216. Make an automatic Spanish Moss farm.::2
+217. Connect Witchery machines with Applied Energistics 2 cables and setup multiple Witchery Altars in order to automatically craft Death Protection Poppets.::2
+218. Build a Portal to the Dungeon of Arcana.::2
+219. Kill Dungeon Constructors in the Dungeon of Arcana to get keys for opening doors in the dungeon. Mine Arcanium Ore from behind the doors.::2
+220. Obtain Collectors from mobs in the dungeon. Obtain Charged Collectors by trading 16 Collectors to Lord Vatticus.::2
+221. Find the Arcana Extractor and make Arcanium using Arcanium Ore, and Charged Collectors.::2
+222. Trade Arcanium with Datticon to get 3 Elevantiums and 3 Accelerons.::2
+223. Craft a Nightmare Bed and use it to enter Vethea.::2
+224. Similarly to the Dream World, Vethea also allows you to bring a Tinkers Belt to your dreams. Use it to your advantage.::2
+225. Collect Fire Crystal and Firelight Blocks in Vethea.::2
+226. Advance to the top layer of Vethea and obtain Shiny Pearls. Consider setting up a Powered Spawner for any mob that drops it.::2
+227. Start the autocrafting of Extra Cells 16384k Storage Components, because you'll need them for your second Createive Item, the Storage Drawers Creative Storage Upgrade, and those Storage Components do take a while to craft.::2
+228. Craft a Draconic Core.::2
+229. Build an automatic Wither killer. Use a Draconic Evolution Mob Grinder.::2
+230. Craft a Dire Crafting Table, if you haven't already.::2
+231. Craft an Angel Ring, if you haven't already.::2
+232. Craft a Wyvern Core.::2
+234. Explore the End and search for Ender Comets that contain a lot of Draconium Ore.::2
+235. Upgrade you Blood Altar to Tier 6.::2
+236. Make a full set of Wyvern Armor.::2
+237. Make a full set of Wyvern Tools.::2
+238. Make an Upgrade Modifier and upgrade your Wyvern Armor and Tools.::2
+239. Build a Draconic Energy Core to store your RF Power.::2
+240. Automatically kill mobs with a Wyvern Sword to obtain Mob Souls. Alternatively, enchant your sword with Reaper, get the enchantment off the sword with a Disenchanting method, and put it on Spikes.::2
+241. Craft a Resurrection Stone and resurrect the Ender Dragon.::2
+242. Defeat the Ender Dragon multiple times and obtain its Heart.::2
+243. Convert 4 Charged Draconium Blocks, 16 Draconic Cores and a Dragon Heart into 4 Awakened Draconium blocks with an explosion.::2
+244. Craft a full set of Draconic Armor.::2
+245. Craft a full set of Draconic Tools.::2
+246. Craft a Draconic Staff of Power.::2
+247. Upgrade your Draconic Armor and Tools in the Upgrade Modifier.::2
+248. Place Enchanted Books in the Draconic Armor's and Tools' inventory to enchant them.::2
+249 Craft Draconic Flux Capacitors.::2
+250. Find the island of the Chaos Guardian and defeat it.::2
+251. Find a way to automatically resummon and kill the Ender Dragon to collect its Heart, and fully automate the creation of Awakened Draconium with that. (Use tons of Draconic Bows and Autonomous Activators.)::2
+252. Craft a Dimlet Researcher and research Dimlets you get from automatically spawning Enderman.::2
+253. Craft a Dimension Enscriber and a Dimension Builder.::2
+254. Craft a Matter Transmitter, and Matter Receiver, a Dialing Device, and a Charged Porter. Set the Charged Porter so it returns you to your Matter Receiver.::2
+255. Build a random dimension, explore it and find dimlets.::2
+256. Build a custom dimension out of blocks of your choice.::2
+257. Find dimensional shards in a dimension.::2
+258. Upgrade your Charged Porter to an Advanced Charged Porter.::2
+259. Make an Enhanced Charm of Dislocation.::2
+260. Craft a Machine Infuser and a Dimlet Workbench, and fully infuse your Dimlet Workbench.::2
+261. Break down dimlets in a Dimlet Workbench and craft a new one of your choice.::2
+262. Build a dimension full of Dimensional Shards.::2
+263. Build a dimension full of Life Essence. Use Tesseracts to import it into your Blood Altar, and use Runes of Dislocation to make the process faster.::2
+264. Build a dimension full of Ender Dragons.::2
+265. Craft Creative Oak Bookcases.::2
+266. Craft a Creative Storage Upgrade.::2
+267. Use the Alchemic Chemistry Set to duplicate Netherite and Bloodgem.::2
+268. Craft a Creative Cache.::2
+269. Automatically grow and harvest Capacitor Seeds.::2
+270. Setup multiple huge Minicio fields and fully speed up the harvesting of them to autocraft Zivi-Essences.::2
+271. Craft a Creative Flux Pack.::2
+272. Craft a Creative Jetpack.::2
+273. Craft a Creative Flux Capacitor.::2
+274. Craft a Creative Energy Cell from Applied Energistics 2.::2
+275. Craft a Creative Energy Cell from Thermal Expansion.::2
+276. Craft a Creative Capacitor Bank.::2
+277. Craft a Creative Activation Crystal.::2
+278. Craft an Orb of Testing.::2
+279. Craft some Soul Fragments.::2
+280. Craft a Pile of Neutrons.::2
+281. Craft a Neutronium Compressor to make Singularities.::2
+282. Craft a Dire Autocrafting Table.::2
+283. Setup automation using the Dire Autocrafting Table.::2
+284. Craft a Creative Sacrificial Knife.::2
+285. Craft an Infinity Egg.::2
+286. Craft an Infinity Catalyst.::2
+287. Craft a Neutron Collector to enhance your Neutron production.::2
+288. Use a Slaughterhouse to create liquid Pink Slime and place that in the world. Use a Slime Embiggening Syringe to enlarge it. Kill the larger slime to create more small ones and repeat the process.::2
+289. Craft a Creative Portable Tank.::2
+290. Craft a Creative Dimension Builder.::2
+291. Setup the Convocation of the Damned Ritual multiple times and harvest the Demon Portal.::2
+292. Craft an Infinity Ingot.::2
+293. Craft the Blood Orb of Armok.::2
+294. Automate the Binding Ritual to create Plasticrystals.::2
+295. Automate the crafting of Air, Earth, Fire & Water Crystals using Dire Autocrafting Tables.::2
+296. Craft the Everlasting Guilty Mana Pool.::2
+297. Craft the Creative Strongbox.::2
+::0
+::0
+298. Make Infinite Infinity Ingots.::5
+299. [Bonus] Use the Creative Strongbox to craft even more Creative Items.::6
+300. [Bonus] Using Infinity Ingots, craft a full set of Infinity Armor, Tools & Weapons, and a Crystal Studded Cosmic Netronium Wand.::6
+DONE! 100% COMPLETE!::3

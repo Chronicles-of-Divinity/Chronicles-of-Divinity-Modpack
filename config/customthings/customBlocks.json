@@ -1,0 +1,233 @@
+{"data":
+	[
+            {
+                "name": "compressedObsidian2",
+		"type": "rock",
+		"hardness": 55.0,
+		"resistance": 1500.0,
+		"harvestLevel": 3,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "compressedObsidian3",
+		"type": "rock",
+		"hardness": 70.0,
+		"resistance": 2000.0,
+		"harvestLevel": 3,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "compressedObsidian4",
+		"type": "rock",
+		"hardness": 85.0,
+		"resistance": 2500.0,
+		"harvestLevel": 3,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "bloodstorage",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "gluedCluster",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "denseNetherite",
+		"type": "rock",
+		"hardness": 8.0,
+		"resistance": 3.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "ultradenseNetherite",
+		"type": "rock",
+		"hardness": 12.0,
+		"resistance": 4.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "denseBloodgem",
+		"type": "rock",
+		"hardness": 8.0,
+		"resistance": 3.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "ultradenseBloodgem",
+		"type": "rock",
+		"hardness": 12.0,
+		"resistance": 4.0,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "frozencore",
+		"type": "glass",
+		"hardness": 0.9,
+		"resistance": 0.5,
+		"harvestLevel": 1,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "storageSingularity",
+		"type": "rock",
+		"hardness": 3.5,
+		"resistance": 3.0,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "fireCrystalBlock",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "earthCrystalBlock",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "waterCrystalBlock",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "airCrystalBlock",
+		"type": "rock",
+		"hardness": 4.0,
+		"resistance": 3.0,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "voidmetalBlock",
+		"type": "metal",
+		"hardness": 5.5,
+		"resistance": 2.5,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "ichoriumBlock",
+		"type": "metal",
+		"hardness": 5.5,
+		"resistance": 2.5,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "kobolditeBlock",
+		"type": "metal",
+		"hardness": 5.5,
+		"resistance": 2.5,
+		"harvestLevel": 2,
+		"toolType": "pickaxe"
+            },
+            {
+                "name": "ichoricGlass",
+		"type": "glass",
+		"hardness": 0.5,
+		"resistance": 0.3,
+		"harvestLevel": 1,
+		"toolType": "pickaxe",
+		"isOpaque": false
+            },
+            {
+                "name": "koboldGlass",
+		"type": "glass",
+		"hardness": 0.5,
+		"resistance": 0.3,
+		"harvestLevel": 1,
+		"toolType": "pickaxe",
+		"isOpaque": false
+            },
+            {
+                "name": "auraGlass",
+		"type": "glass",
+		"hardness": 0.5,
+		"resistance": 0.3,
+		"harvestLevel": 1,
+		"toolType": "pickaxe",
+		"isOpaque": false
+            },
+            {
+                "name": "dragonGlass",
+		"type": "glass",
+		"hardness": 0.5,
+		"resistance": 0.3,
+		"harvestLevel": 1,
+		"toolType": "pickaxe",
+		"isOpaque": false
+            },
+            {
+                "name": "rainbowGlass",
+		"type": "glass",
+		"hardness": 0.5,
+		"resistance": 0.3,
+		"harvestLevel": 1,
+		"toolType": "pickaxe",
+		"isOpaque": false
+            },
+            {
+                "name": "eternalStone",
+		"type": "rock",
+		"hardness": 170.0,
+		"resistance": 5000.0,
+		"harvestLevel": 4,
+		"toolType": "pickaxe"
+            },
+			{
+                "name": "corruptedDraconiumBlock",
+		"type": "metal",
+		"hardness": 6.0,
+		"resistance": 6.0,
+		"harvestLevel": 3,
+		"toolType": "pickaxe"
+            },
+			{
+                "name": "planks_firewood",
+		"type": "wood",
+		"hardness": 0.4,
+		"resistance": 0.4,
+		"harvestLevel": 0,
+		"toolType": "axe"
+            },
+			{
+                "name": "planks_hyrewood",
+		"type": "wood",
+		"hardness": 0.4,
+		"resistance": 0.4,
+		"harvestLevel": 0,
+		"toolType": "axe"
+            },
+			{
+                "name": "planks_mintwood",
+		"type": "wood",
+		"hardness": 0.4,
+		"resistance": 0.4,
+		"harvestLevel": 0,
+		"toolType": "axe"
+            }
+	]
+}

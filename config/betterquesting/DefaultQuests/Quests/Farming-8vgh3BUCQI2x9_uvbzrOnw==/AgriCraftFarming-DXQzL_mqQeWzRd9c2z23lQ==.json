@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4202280187781664746,
+      "questIDLow:4": -6060698728420680368
+    },
+    "1:10": {
+      "questIDHigh:4": -428928773176867698,
+      "questIDLow:4": -7132703154528333699
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an AgriCraft Farming Station! This is a more advanced version of the regular EnderIO Farming Station, and it allows you to use Crop Sticks, plant AgriCraft Seeds on Crop Sticks, as well as do everything else, that the regular Farming Station was capable of. I highly recommend using this machine, and turning your Minicio into a  10/10/10 AgriCraft Seed, because it will hugely improve your Minicio production, which will be necessary for the creative items (just look at the Infinity Catalyst recipe, and track how to get to the Zividecco Essence).",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "enderioaddons:blockAfarm"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "AgriCraft Farming Station",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 969456100936663525,
+  "questIDLow:4": -5528767377619175531,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:item.darkSteel_axe"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "enderioaddons:blockAfarm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

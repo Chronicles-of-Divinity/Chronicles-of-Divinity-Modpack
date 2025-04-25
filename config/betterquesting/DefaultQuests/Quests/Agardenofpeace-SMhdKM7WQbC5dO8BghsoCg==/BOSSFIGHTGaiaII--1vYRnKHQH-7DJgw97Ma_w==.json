@@ -1,0 +1,72 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 4734755777754714054,
+      "questIDLow:4": -9164749357801235194
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Use the same area to fight the second Gaia boss, only this time using a Gaia Spirit Ingot instead of a piece of Terrasteel. The Gaia II always drops a Dice of Faith. This item can either be used for crafting or right clicked to receive one of the 6 Botania Relics. Be aware, that if you lose one of those Relics, there is no way to obtain it again, and if you\u0027ve obtained all 6 Relics already, the Dice of Faith simply won\u0027t drop anything. Try attaching a Resolute Ivy to all of your Relics for this reason.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "Botania:dice",
+        "tag:10": {
+          "soulbind:8": "Atricos"
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "BOSSFIGHT: Gaia II",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -334435950228193153,
+  "questIDLow:4": -4968428952814937345,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "Botania:blackLotus"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "Botania:dice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "0": {
+    "isAchievement": false,
+    "color": 0,
+    "colorChecked": 0,
+    "align": "CENTER",
+    "shadow": false
+  },
+  "1": {
+    "isAchievement": false,
+    "color": 490253,
+    "colorChecked": 0,
+    "align": "CENTER",
+    "shadow": false
+  },
+  "2": {
+    "isAchievement": true,
+    "color": 0,
+    "colorChecked": 4026064,
+    "align": "LEFT",
+    "shadow": false
+  },
+  "3": {
+    "isAchievement": false,
+    "color": 16711680,
+    "colorChecked": 0,
+    "align": "CENTER",
+    "shadow": false
+  },
+  "4": {
+    "isAchievement": false,
+    "color": 0,
+    "colorChecked": 0,
+    "align": "LEFT",
+    "shadow": false
+  },
+  "5": {
+    "isAchievement": true,
+    "color": 11206656,
+    "colorChecked": 16755290,
+    "align": "LEFT",
+    "shadow": false
+  },
+  "6": {
+    "isAchievement": true,
+    "color": 7227648,
+    "colorChecked": 6919403,
+    "align": "LEFT",
+    "shadow": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4643576846704817147,
+      "questIDLow:4": -5017524346652512467
+    },
+    "1:10": {
+      "questIDHigh:4": -771906466874506512,
+      "questIDLow:4": -6282864965649186501
+    },
+    "2:10": {
+      "questIDHigh:4": 8666377258946808205,
+      "questIDLow:4": -7636980606513746734
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft an Enhanced Charm of Dislocation. Shift right click to open a menu to set a teleport spot or TP to another spot. Shift scroll to change the destination. Right click to teleport to the destination. Requires Ender Pearls to use, you can shift click the \"Add fuel\" button to add 16 Ender Pearls at once.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "DraconicEvolution:teleporterMKII"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Enhanced Charm of Dislocation",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4008536575610041527,
+  "questIDLow:4": -9028859200979219395,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "DraconicEvolution:teleporterMKII"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here.
+
+  To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as found in
+  the core file.
+
+  Adding new Recipes:
+  For more details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+  Adding a new recipe to a new group:
+
+  <recipeGroup name="CrazyPantsGroup" >
+    <recipe name="SolarToGlass" energyCost="120" >
+        <input>
+          <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="glass" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Removing Recipes:
+  To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+  <recipeGroup name="Forestry" enabled="false" />
+
+  Disable all recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" enabled="false" />
+
+  To disable individual recipes, simply provide an invalid recipe for them:
+
+  <recipeGroup name="Applied Energistics" >
+    <recipe name="CertusQuartzOre" />
+  </recipeGroup>
+
+  Disable the glass recipes in the group 'Vanilla':
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" />
+  </recipeGroup>
+
+  Modifying Recipes:
+  Modify a core recipe definition, in this case, make glass give diamonds:
+
+  <recipeGroup name="Vanilla" >
+    <recipe name="Glass" energyCost="120" >
+        <input>
+          <itemStack modID="minecraft" itemName="glass" />
+        </input>
+        <output>
+          <itemStack modID="minecraft" itemName="diamond" />
+        </output>
+      </recipe>
+  </recipeGroup>
+
+  Add this block to change the default TE obsidian -> dust recipe to the railcraft recipe.
+
+  <recipeGroup name="Thermal Expansion" >
+    <recipe name="Obsidian" energyCost="400" >
+      <input>
+        <itemStack modID="minecraft" itemName="obsidian" />
+      </input>
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
+  Grinding Balls:
+  Adding a new grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Diamond" grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.5" durationRF="50000" >
+      <itemStack modID="minecraft" itemName="diamond" />
+    </grindingBall>
+  </grindingBalls>
+
+  Removing an existing grinding ball:
+
+  <grindingBalls>
+    <grindingBall id="Flint" remove="true" />
+  </grindingBalls>
+
+  Modifying the excludes list: (removing glowstone, adding sand)
+
+  <grindingBalls>
+    <excludes>
+      <itemStack modID="minecraft" itemName="glowstone" remove="true" />
+      <itemStack modID="minecraft" itemName="sand" />
+    </excludes>
+  </grindingBalls>
+
+-->
+
+<SAGMillRecipes>
+
+<recipeGroup name="DivineRPG">
+  <recipe name="Arlemite" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="arlemiteOre" />
+      </input>
+      <output>
+        <itemStack modID="customthings" itemName="item" number="2" itemMeta="14"/>
+        <itemStack modID="customthings" itemName="item" number="1" itemMeta="15" chance="0.05" />
+      </output>
+  </recipe>
+  <recipe name="Realmite" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="realmiteOre" />
+      </input>
+      <output>
+        <itemStack modID="customthings" itemName="item" number="2" itemMeta="15"/>
+        <itemStack modID="customthings" itemName="item" number="1" itemMeta="16" chance="0.05" />
+      </output>
+  </recipe>
+  <recipe name="Rupee" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="rupeeOre" />
+      </input>
+      <output>
+        <itemStack modID="customthings" itemName="item" number="2" itemMeta="16"/>
+        <itemStack modID="customthings" itemName="item" number="1" itemMeta="14" chance="0.05" />
+      </output>
+  </recipe>
+  <recipe name="Netherite" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="netheriteOre" />
+      </input>
+      <output>
+        <itemStack modID="customthings" itemName="item" number="2" itemMeta="17"/>
+        <itemStack modID="divinerpg" itemName="bloodgem" number="1" itemMeta="0" chance="0.05" />
+      </output>
+  </recipe>
+  <recipe name="Bloodgem" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="bloodgemOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="bloodgem" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+  <recipe name="Eden" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="edenOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="edenFragments" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+  <recipe name="Wildwood" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="wildwoodOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="wildwoodFragments" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+  <recipe name="Apalachia" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="apalachiaOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="apalachiaFragments" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+  <recipe name="Skythern" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="skythernOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="skythernFragments" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+  <recipe name="Mortum" energyCost="4000"> 
+      <input>
+        <itemStack modID="divinerpg" itemName="mortumOre" />
+      </input>
+      <output>
+        <itemStack modID="divinerpg" itemName="mortumFragments" number="2" itemMeta="0"/>
+      </output>
+  </recipe>
+</recipeGroup>
+<recipeGroup name="Minecraft">
+  <recipe name="DiamondHorseArmor" energyCost="6000"> 
+      <input>
+        <itemStack modID="minecraft" itemName="diamond_horse_armor" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="diamond" number="5" itemMeta="0"/>
+      </output>
+  </recipe>
+</recipeGroup>
+<recipeGroup name="MagicalCrops">
+  <recipe name="MinicioOverworld" energyCost="4000"> 
+      <input>
+        <itemStack modID="magicalcrops" itemName="MinicioOre" />
+      </input>
+      <output>
+        <itemStack modID="magicalcrops" itemName="1MinicioEssence" number="4" itemMeta="0"/>
+      </output>
+  </recipe>
+    <recipe name="MinicioNether" energyCost="4000"> 
+      <input>
+        <itemStack modID="magicalcrops" itemName="MinicioOreNether" />
+      </input>
+      <output>
+        <itemStack modID="magicalcrops" itemName="1MinicioEssence" number="4" itemMeta="0"/>
+      </output>
+  </recipe>
+      <recipe name="MinicioEnd" energyCost="4000"> 
+      <input>
+        <itemStack modID="magicalcrops" itemName="MinicioOreEnd" />
+      </input>
+      <output>
+        <itemStack modID="magicalcrops" itemName="1MinicioEssence" number="4" itemMeta="0"/>
+      </output>
+  </recipe>
+</recipeGroup>
+
+</SAGMillRecipes>

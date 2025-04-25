@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 794744588981125858,
+      "questIDLow:4": -8440111739278640137
+    },
+    "1:10": {
+      "questIDHigh:4": 7663577800723548975,
+      "questIDLow:4": -7398524578582908037
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Craft a Powered Spawner. To use it, combine it with a Broken Spawner of any mobtype in an Anvil. To change to type of the Broken Spawner, combine it with a Soul Vial of a mob in a Soul Binder. I recommend creating many auto-killing chambers for multiple mobs along with a regular mob farm, to obtain tons of mobs drops. You\u0027ll need a Bat Spawner to be able to craft more Powered Spawners, an Enderman Spawner, and lots of DivineRPG mob spawners.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "EnderIO:blockPoweredSpawner"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Power creates Creatures",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8056906968139216144,
+  "questIDLow:4": -8122056579502611484,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemSoulVessel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "EnderIO:blockPoweredSpawner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

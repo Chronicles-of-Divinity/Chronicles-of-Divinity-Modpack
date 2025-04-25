@@ -1,0 +1,93 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8615368251207011969,
+      "questIDLow:4": -5918024926437873613
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Create all pieces of the Bound Armor. You first need to make a Soul Armor Forge, then place it in the world. Use a 3x3 vertical blockspace as your crafting table and put the filled sockets where diamonds would go in the creation of diamond armor. http://ftbwiki.org/Bound_Armor     You can also upgrade your Bound Armor with Sigils. Placing a Weak Blood Shard in one of the sockets allows you to add one Sigil to the armor. You can only place one item in a Filled Socket, and adding multiple Weak Blood Shards won\u0027t allow you to place multiple Sigils into one piece of Bound Armor. However, adding a Demon Blood Shard instead of a Weak Blood Shard allows you to upgrade your Bound Armor with 2 Sigils instead of 1 per armor piece. Additionally, place a Master Blood Orb which is bound to yourself in one of the Filled Sockets, to remove that Armor Pieces Life Essence cost. Otherwise, each time you take damage with the Armor, you will lose some interal Life Essence from your body. Once you\u0027re done upgrading your Armor, right click the Soul Armor Forge to create that piece.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:armourForge"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Bound Armor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7382690865254908702,
+  "questIDLow:4": -8156784956835740441,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "minecraft:golden_apple"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:armourForge"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:boundHelmet"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:boundPlate"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:boundLeggings"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:boundBoots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

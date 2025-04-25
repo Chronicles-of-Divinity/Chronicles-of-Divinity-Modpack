@@ -1,0 +1,73 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -6853189293954283980,
+      "questIDLow:4": -7978191106668433841
+    },
+    "1:10": {
+      "questIDHigh:4": -3584158741662317240,
+      "questIDLow:4": -6693332384339226334
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Create a Magician\u0027s Blood Orb. This Orb is one of the most difficult ones to craft, because your Blood Altar can\u0027t hold as much Life Essence as it\u0027s needed for this item\u0027s creation. To solve this, first craft as many Self-Sacrifice Runes as you can, and replace every other Rune with it. Then, fill up your Blood Altar, and make some Regeneration Potions. Once you\u0027re ready, place the Ice Stone into the Blood Altar and continously check the Life Essence amount in there with your Divination Sigil. Right click your Sacrificial Orb if the Altar is low on Life Essence, and use a Regeneration Potion and some food if you\u0027re low on Health. Good luck.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "AWWayofTime:magicianBloodOrb"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Magician\u0027s Blood Orb",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2976828107673913465,
+  "questIDLow:4": -6773184079267550935,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 7,
+          "OreDict:8": "",
+          "id:8": "EnderIO:itemAlloy"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "AWWayofTime:magicianBloodOrb"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

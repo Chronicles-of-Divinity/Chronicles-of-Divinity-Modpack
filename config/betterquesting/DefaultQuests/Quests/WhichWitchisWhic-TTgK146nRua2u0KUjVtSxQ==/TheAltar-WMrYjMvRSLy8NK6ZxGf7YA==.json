@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 9027234144933790483,
+      "questIDLow:4": -5725956680078012400
+    },
+    "1:10": {
+      "questIDHigh:4": 2713816732327428229,
+      "questIDLow:4": -8055240834241894873
+    },
+    "2:10": {
+      "questIDHigh:4": 745922815326177539,
+      "questIDLow:4": -6182366796902791876
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Setup the Witchery Altar. To gain Altar Power, grow a lot and a variety of natural elements around it. First fill up the sorrounding area with trees. Variety helps, you can place Natura, Thaumcraft and Witchery trees there too. Once you cannot fit anymore trees, make multiple farmland areas and fill it up with a huge variety of crops. Place Lilypad on top of the Water sourceblocks. Then use bonemeal on the grass, and even replace some of the tallgrass with a variety of flowers. Then grow Vines and Spanish Moss from the Trees, place Sugarcane, Cactus and Netherwart around the place. Once you\u0027ve filled up almost every air block with natury elements, put the following items on the Altar: A Candlebra, a Pentacle, a Filled Chalice, an Arthana, a Player Head, and a Dragon Egg - these will all multiply the base power the Altar has got from the natury elements around it.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "witchery:altar"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "The Altar",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 6398164319859722428,
+  "questIDLow:4": -4885087720341767328,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ThaumicTinkerer:kamiResource"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "witchery:altar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
