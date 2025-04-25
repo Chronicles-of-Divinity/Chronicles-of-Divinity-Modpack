@@ -41,6 +41,8 @@ recipes.remove(<extracells:terminal.fluid.wireless>);
 recipes.addShaped(<extracells:terminal.fluid.wireless>, [[null,<appliedenergistics2:item.ItemMultiMaterial:41>,null],[<appliedenergistics2:item.ItemMultiMaterial:41>,<extracells:part.base:3>,<appliedenergistics2:item.ItemMultiMaterial:41>],[<appliedenergistics2:tile.BlockDenseEnergyCell>,<appliedenergistics2:tile.BlockDenseEnergyCell>,<appliedenergistics2:tile.BlockDenseEnergyCell>]]);
 
 # Storage Components
+recipes.remove(<extracells:storage.casing:0>);
+recipes.addShaped(<extracells:storage.casing:0>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:tile.BlockQuartzGlass>], [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:8>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
 recipes.remove(<extracells:storage.component:0>);
 recipes.addShaped(<extracells:storage.component:0>, [[<ThermalFoundation:material:75>,<appliedenergistics2:item.ItemMultiMaterial:38>,<ThermalFoundation:material:75>],[<appliedenergistics2:item.ItemMultiMaterial:38>,<appliedenergistics2:item.ItemMultiMaterial:24>,<appliedenergistics2:item.ItemMultiMaterial:38>],[<ThermalFoundation:material:75>,<appliedenergistics2:item.ItemMultiMaterial:38>,<ThermalFoundation:material:75>]]);
 recipes.remove(<extracells:storage.component:1>);
