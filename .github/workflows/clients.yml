@@ -97,7 +97,7 @@ jobs:
           tag_name: ${{ steps.get_short_sha.outputs.short_sha }}
           release_name: Build from commit ${{ steps.get_short_sha.outputs.short_sha }}
           body: |
-            Automaticky generované balíčky pro klienty.
+            Automaticky generované Minecraft Client zipy.
             Commit: ${{ github.sha }}
           draft: false
           prerelease: true
