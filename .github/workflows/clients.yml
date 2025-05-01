@@ -59,33 +59,25 @@ jobs:
         run: |
           BUILD_DIR="build/multimc17"
           MINECRAFT_DIR="$BUILD_DIR/minecraft"
-          LWJGL3IFY_JAR="Clients/MultiMC_Java17/lwjgl3ify-2.1.10.jar"
-          LWJGL3IFY_ZIP="Clients/MultiMC_Java17/lwjgl3ify-2.1.10-multimc.zip"
+          LWJGL3IFY_JAR_SRC="Clients/MultiMC_Java17/lwjgl3ify-2.1.10.jar"
+          LWJGL3IFY_JAR_DEST="$MINECRAFT_DIR/mods/"
 
-          if [ ! -f "$LWJGL3IFY_JAR" ]; then
-            echo "Chyba: Soubor $LWJGL3IFY_JAR nebyl nalezen na očekávaném místě."
+          if [ ! -f "$LWJGL3IFY_JAR_SRC" ]; then
+            echo "Chyba: Soubor $LWJGL3IFY_JAR_SRC nebyl nalezen na očekávaném místě."
             exit 1
           fi
 
-          mkdir -p "$BUILD_DIR" "$MINECRAFT_DIR" "$BUILD_DIR/flame"
+          mkdir -p "$BUILD_DIR" "$MINECRAFT_DIR"
 
           cp -r config mods scripts resources "$MINECRAFT_DIR/"
 
-          cp Clients/MultiMC_Java17/.packignore "$BUILD_DIR/" 2>/dev/null || :
-          cp Clients/MultiMC_Java17/chod_icon "$BUILD_DIR/" 2>/dev/null || :
-          cp Clients/MultiMC_Java17/cod_logo.png "$BUILD_DIR/" 2>/dev/null || :
-          cp -r Clients/MultiMC_Java17/flame/* "$BUILD_DIR/flame/" 2>/dev/null || :
-          cp Clients/MultiMC_Java17/instance.cfg "$BUILD_DIR/" 2>/dev/null || :
-          cp Clients/MultiMC_Java17/mmc-pack.json "$BUILD_DIR/" 2>/dev/null || :
+          shopt -s dotglob
+          cp -r Clients/MultiMC_Java17/* "$BUILD_DIR/" 2>/dev/null || :
+          shopt -u dotglob
+          find "$BUILD_DIR" -maxdepth 1 -name "*.zip" -delete
 
-          cp "$LWJGL3IFY_JAR" "$MINECRAFT_DIR/mods/"
-
-          if [ -f "$LWGL3IFY_ZIP" ]; then
-             echo "Extrahuji lwjgl3ify zip '$LWGL3IFY_ZIP' do '$BUILD_DIR/' (přepisuji soubory)"
-             unzip -o "$LWGL3IFY_ZIP" -d "$BUILD_DIR/"
-          else
-             echo "Varování: Soubor $LWGL3IFY_ZIP nebyl nalezen. Žádné soubory z tohoto zipu nebudou extrahovány."
-          fi
+          mkdir -p "$LWJGL3IFY_JAR_DEST"
+          cp "$LWJGL3IFY_JAR_SRC" "$LWJGL3IFY_JAR_DEST"
 
           cd "$BUILD_DIR"
           zip -r ../../multimc17_pack.zip ./*
