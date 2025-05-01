@@ -1,15 +1,12 @@
-name: Build Client Packs
+name: Build Client Packs and Release
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 jobs:
-  build:
+  build_and_release:
     runs-on: ubuntu-latest
 
     steps:
@@ -59,9 +56,15 @@ jobs:
           MINECRAFT_DIR="$BUILD_DIR/minecraft"
           TEMP_UNZIP_DIR="temp_multimc17_extract"
           MULTIMC17_ZIP=$(find Clients/MultiMC_Java17 -maxdepth 1 -name "*.zip" -print -quit)
+          LWJGL3IFY_JAR="Clients/MultiMC_Java17/lwjgl3ify-2.1.10.jar"
           
           if [ -z "$MULTIMC17_ZIP" ]; then
             echo "Chyba: Zip soubor pro MultiMC Java 17+ nebyl nalezen ve složce Clients/MultiMC_Java17."
+            exit 1
+          fi
+          
+          if [ ! -f "$LWJGL3IFY_JAR" ]; then
+            echo "Chyba: Soubor $LWJGL3IFY_JAR nebyl nalezen na očekávaném místě."
             exit 1
           fi
           
@@ -79,6 +82,8 @@ jobs:
           
           cp -r config mods scripts resources "$MINECRAFT_DIR/"
           
+          cp "$LWJGL3IFY_JAR" "$MINECRAFT_DIR/mods/"
+          
           cd "$BUILD_DIR"
           zip -r ../../multimc17_pack.zip ./*
           cd ../..
@@ -86,23 +91,51 @@ jobs:
           rm -rf "$TEMP_UNZIP_DIR"
         shell: bash
 
-      - name: Upload Technic Pack Artifact
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: technic-pack
-          path: technic_pack.zip
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Automaticky generované balíčky pro klienty:
+            - Technic
+            - MultiMC Java 8
+            - MultiMC Java 17+
+          draft: false
+          prerelease: false
 
-      - name: Upload MultiMC Java 8 Pack Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Technic Pack Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: multimc8-pack
-          path: multimc8_pack.zip
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./technic_pack.zip
+          asset_name: technic_pack.zip
+          asset_content_type: application/zip
 
-      - name: Upload MultiMC Java 17+ Pack Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload MultiMC 8 Pack Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: multimc17-pack
-          path: multimc17_pack.zip
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./multimc8_pack.zip
+          asset_name: multimc8_pack.zip
+          asset_content_type: application/zip
+
+      - name: Upload MultiMC 17+ Pack Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./multimc17_pack.zip
+          asset_name: multimc17_pack.zip
+          asset_content_type: application/zip
 
       - name: Clean up build directory
         run: |
