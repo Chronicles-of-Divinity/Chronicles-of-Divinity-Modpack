@@ -1,0 +1,110 @@
+name: Build Client Packs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Prepare build directory
+        run: |
+          mkdir build
+
+      - name: Build Technic Pack
+        run: |
+          BUILD_DIR="build/technic"
+          mkdir -p "$BUILD_DIR"
+          cp -r config mods scripts resources "$BUILD_DIR/"
+          shopt -s dotglob
+          cp -r Clients/Technic/* "$BUILD_DIR/" 2>/dev/null || :
+          shopt -u dotglob
+          cd "$BUILD_DIR"
+          zip -r ../../technic_pack.zip ./*
+          cd ../..
+        shell: bash
+
+      - name: Build MultiMC Java 8 Pack
+        run: |
+          BUILD_DIR="build/multimc8"
+          MINECRAFT_DIR="$BUILD_DIR/minecraft"
+          mkdir -p "$MINECRAFT_DIR"
+          cp -r config mods scripts resources "$MINECRAFT_DIR/"
+          shopt -s dotglob
+          cp -r Clients/MultiMC_Java8/* "$MINECRAFT_DIR/" 2>/dev/null || :
+          shopt -u dotglob
+          cd "$BUILD_DIR"
+          zip -r ../../multimc8_pack.zip ./*
+          cd ../..
+        shell: bash
+
+      - name: Build MultiMC Java 17+ Pack
+        run: |
+          BUILD_DIR="build/multimc17"
+          MINECRAFT_DIR="$BUILD_DIR/minecraft"
+          TEMP_UNZIP_DIR="temp_multimc17_extract"
+          MULTIMC17_ZIP=$(find Clients/MultiMC_Java17 -maxdepth 1 -name "*.zip" -print -quit)
+          
+          if [ -z "$MULTIMC17_ZIP" ]; then
+            echo "Chyba: Zip soubor pro MultiMC Java 17+ nebyl nalezen ve složce Clients/MultiMC_Java17."
+            exit 1
+          fi
+          
+          mkdir -p "$MINECRAFT_DIR" "$TEMP_UNZIP_DIR"
+          
+          unzip "$MULTIMC17_ZIP" -d "$TEMP_UNZIP_DIR"
+          
+          if [ -d "$TEMP_UNZIP_DIR/minecraft" ]; then
+            shopt -s dotglob
+            cp -r "$TEMP_UNZIP_DIR/minecraft/"* "$MINECRAFT_DIR/"
+            shopt -u dotglob
+          else
+            echo "Varování: Extrahovaný zip neobsahuje složku 'minecraft'. Pokračuji pouze se společnými soubory."
+          fi
+          
+          cp -r config mods scripts resources "$MINECRAFT_DIR/"
+          
+          cd "$BUILD_DIR"
+          zip -r ../../multimc17_pack.zip ./*
+          cd ../..
+          
+          rm -rf "$TEMP_UNZIP_DIR"
+        shell: bash
+
+      - name: Upload Technic Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: technic-pack
+          path: technic_pack.zip
+
+      - name: Upload MultiMC Java 8 Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: multimc8-pack
+          path: multimc8_pack.zip
+
+      - name: Upload MultiMC Java 17+ Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: multimc17-pack
+          path: multimc17_pack.zip
+
+      - name: Clean up build directory
+        run: |
+          rm -rf build
+        if: always()
