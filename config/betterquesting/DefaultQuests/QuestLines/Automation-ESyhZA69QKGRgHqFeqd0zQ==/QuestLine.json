@@ -6,9 +6,9 @@
       "desc:8": "Craft machines that can generate RF power, double your Ore output, charge your items, liquify your metals, automatically spawn mobs, store your items, automatically import and export your items to machines, automatically craft and process items, etc. This chapter contains the most quests!",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 7,
         "OreDict:8": "",
-        "id:8": "minecraft:book"
+        "id:8": "EnderIO:itemBasicCapacitor"
       },
       "name:8": "Automation",
       "visibility:8": "NORMAL"

@@ -6,9 +6,9 @@
       "desc:8": "It\u0027s here. You finally got there.",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 6,
         "OreDict:8": "",
-        "id:8": "minecraft:book"
+        "id:8": "Avaritia:Resource"
       },
       "name:8": "Let\u0027s get Creative!",
       "visibility:8": "NORMAL"

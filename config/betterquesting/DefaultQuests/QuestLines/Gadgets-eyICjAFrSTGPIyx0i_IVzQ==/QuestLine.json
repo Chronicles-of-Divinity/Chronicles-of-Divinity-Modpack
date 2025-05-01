@@ -8,7 +8,10 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:book"
+        "id:8": "EnderIO:itemMagnet",
+        "tag:10": {
+          "Energy:3": 100000
+        }
       },
       "name:8": "Gadgets",
       "visibility:8": "NORMAL"

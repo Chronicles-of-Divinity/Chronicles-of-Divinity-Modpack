@@ -8,7 +8,7 @@
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:book"
+        "id:8": "Thaumcraft:ItemThaumometer"
       },
       "name:8": "Insane amounts of magic",
       "visibility:8": "NORMAL"
