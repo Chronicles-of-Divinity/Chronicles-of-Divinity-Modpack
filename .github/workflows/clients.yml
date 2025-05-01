@@ -97,7 +97,7 @@ jobs:
           tag_name: ${{ steps.get_short_sha.outputs.short_sha }}
           release_name: Build from commit ${{ steps.get_short_sha.outputs.short_sha }}
           body: |
-            Automaticky generované Minecraft Client zipy.
+            Automatically generated Minecraft Client Zips.
             Commit: ${{ github.sha }}
           draft: false
           prerelease: true
@@ -109,7 +109,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./technic_pack.zip
-          asset_name: Chronicles of Divinity-Technic.zip
+          asset_name: Chronicles_of_Divinity-Technic.zip
           asset_content_type: application/zip
 
       - name: Upload MultiMC 8 Pack Asset
@@ -119,7 +119,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./multimc8_pack.zip
-          asset_name: Chronicles of Divinity-MultiMC8.zip
+          asset_name: Chronicles_of_Divinity-MultiMC8.zip
           asset_content_type: application/zip
 
       - name: Upload MultiMC 17+ Pack Asset
@@ -129,7 +129,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./multimc17_pack.zip
-          asset_name: Chronicles of Divinity-MultiMC17.zip
+          asset_name: Chronicles_of_Divinity-MultiMC17.zip
           asset_content_type: application/zip
 
       - name: Clean up build directory
