@@ -13,6 +13,13 @@ recipes.removeShaped(<minecraft:piston>);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<minecraft:stone>,<minecraft:chest>,<minecraft:stone>],[<minecraft:redstone>,<minecraft:heavy_weighted_pressure_plate>,<minecraft:redstone>]]);
 recipes.removeShaped(<minecraft:wheat> * 9, [[<minecraft:hay_block>]]);
 
+# Shaped seeds to avoid conflict with Natura wheat flour
+recipes.removeShapeless(<minecraft:wheat_seeds>);
+recipes.addShaped(<minecraft:wheat_seeds>,
+[[<minecraft:wheat>, null, null], [null, null, null], [null, null, null]]
+);
+
+
 # Mushroom Stew conversion
 recipes.addShapeless(<minecraft:mushroom_stew>, [<Natura:natura.stewbowl>]);
 recipes.addShapeless(<Natura:natura.stewbowl>, [<minecraft:mushroom_stew>]);

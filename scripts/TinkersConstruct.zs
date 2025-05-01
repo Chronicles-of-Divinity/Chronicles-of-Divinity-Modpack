@@ -10,7 +10,11 @@ recipes.addShaped(<TConstruct:FurnaceSlab>, [[<minecraft:cobblestone>, <minecraf
 
 # Blank Pattern
 recipes.remove(<TConstruct:blankPattern>);
-recipes.addShapedMirrored(<TConstruct:blankPattern> * 4, [[<ore:plankWood>,<ore:plankWood>,<ore:stickWood>],[<ore:plankWood>,<ore:ingotIron>,<ore:plankWood>],[<ore:stickWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShapedMirrored(<TConstruct:blankPattern> * 4, [
+  [<ore:plankWood>,<ore:plankWood>,<ore:stickWood>],
+  [<ore:plankWood>,<AWWayofTime:bloodMagicBaseItems:3>,<ore:plankWood>],
+  [<ore:stickWood>,<ore:plankWood>,<ore:plankWood>]
+]);
 
 # Smeltery
 recipes.remove(<TConstruct:Smeltery:0>);

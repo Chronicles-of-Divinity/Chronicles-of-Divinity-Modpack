@@ -15,4 +15,10 @@ mods.botania.ManaInfusion.addAlchemy(<Natura:florasapling:6>,<Natura:florasaplin
 recipes.remove(<Natura:Obelisk>);
 recipes.addShaped(<Natura:Obelisk>, [[<Natura:tree:2>,<Natura:tree:2>,<Natura:tree:2>],[<Natura:tree:2>,<Thaumcraft:ItemResource:0>,<Natura:tree:2>],[<Natura:tree:2>,<Natura:tree:2>,<Natura:tree:2>]]);
 
+# Shaped wheat flour to avoid conflict with Vanilla seeds
+recipes.remove(<Natura:barleyFood:2>);
+recipes.addShaped(<Natura:barleyFood:2>,
+[[null, <minecraft:wheat>], [null, null, null], [null, null, null]]
+);
+
 print("ENDING Natura.zs");
