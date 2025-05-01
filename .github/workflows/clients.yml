@@ -2,8 +2,8 @@ name: Build Client Packs and Release
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
 
 jobs:
   build_and_release:
@@ -57,21 +57,21 @@ jobs:
           TEMP_UNZIP_DIR="temp_multimc17_extract"
           MULTIMC17_ZIP=$(find Clients/MultiMC_Java17 -maxdepth 1 -name "*.zip" -print -quit)
           LWJGL3IFY_JAR="Clients/MultiMC_Java17/lwjgl3ify-2.1.10.jar"
-          
+
           if [ -z "$MULTIMC17_ZIP" ]; then
             echo "Chyba: Zip soubor pro MultiMC Java 17+ nebyl nalezen ve složce Clients/MultiMC_Java17."
             exit 1
           fi
-          
+
           if [ ! -f "$LWJGL3IFY_JAR" ]; then
             echo "Chyba: Soubor $LWJGL3IFY_JAR nebyl nalezen na očekávaném místě."
             exit 1
           fi
-          
+
           mkdir -p "$MINECRAFT_DIR" "$TEMP_UNZIP_DIR"
-          
+
           unzip "$MULTIMC17_ZIP" -d "$TEMP_UNZIP_DIR"
-          
+
           if [ -d "$TEMP_UNZIP_DIR/minecraft" ]; then
             shopt -s dotglob
             cp -r "$TEMP_UNZIP_DIR/minecraft/"* "$MINECRAFT_DIR/"
@@ -79,17 +79,21 @@ jobs:
           else
             echo "Varování: Extrahovaný zip neobsahuje složku 'minecraft'. Pokračuji pouze se společnými soubory."
           fi
-          
+
           cp -r config mods scripts resources "$MINECRAFT_DIR/"
-          
+
           cp "$LWJGL3IFY_JAR" "$MINECRAFT_DIR/mods/"
-          
+
           cd "$BUILD_DIR"
           zip -r ../../multimc17_pack.zip ./*
           cd ../..
-          
+
           rm -rf "$TEMP_UNZIP_DIR"
         shell: bash
+
+      - name: Get short commit SHA
+        id: get_short_sha
+        run: echo "short_sha=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
       - name: Create Release
         id: create_release
@@ -97,13 +101,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ steps.get_short_sha.outputs.short_sha }}
+          release_name: Build from commit ${{ steps.get_short_sha.outputs.short_sha }}
           body: |
-            Automaticky generované balíčky pro klienty:
-            - Technic
-            - MultiMC Java 8
-            - MultiMC Java 17+
+            Automaticky generované balíčky pro klienty.
+            Commit: ${{ github.sha }} # Plné SHA v těle Release
           draft: false
           prerelease: false
 
