@@ -39,6 +39,13 @@ recipes.addShaped(<simplyjetpacks:components:25>, [[<simplyjetpacks:components:7
 recipes.remove(<simplyjetpacks:armorPlatings:11>);
 recipes.addShaped(<simplyjetpacks:armorPlatings:11>, [[<appliedenergistics2:item.ItemMultiMaterial:20>,<minecraft:heavy_weighted_pressure_plate>,<appliedenergistics2:item.ItemMultiMaterial:20>],[<minecraft:iron_ingot>,<appliedenergistics2:item.ItemMultiMaterial:20>,<minecraft:iron_ingot>],[<appliedenergistics2:item.ItemMultiMaterial:20>,<minecraft:heavy_weighted_pressure_plate>,<appliedenergistics2:item.ItemMultiMaterial:20>]]);
 
+# EnderIO Jetpacks
+recipes.addShaped(<simplyjetpacks:jetpacksEIO:4>, [
+  [<EnderIO:itemAlloy:2>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:2>],
+  [<EnderIO:itemAlloy:2>, <simplyjetpacks:jetpacksEIO:3>, <EnderIO:itemAlloy:2>],
+  [<simplyjetpacks:components:24>, null, <simplyjetpacks:components:24>],
+]);
+
 # Flux Packs
 recipes.remove(<simplyjetpacks:fluxpacks:2>);
 recipes.addShaped(<simplyjetpacks:fluxpacks:2>, [[<ore:blockGlass>,<ore:gearInvar>,<ore:blockGlass>],[<ThermalFoundation:material:72>,<simplyjetpacks:fluxpacks:1>,<ThermalFoundation:material:72>],[<ore:blockGlass>,<ore:gearInvar>,<ore:blockGlass>]]);
@@ -51,6 +58,11 @@ recipes.addShapeless(<simplyjetpacks:fluxpacks:4>, [<simplyjetpacks:fluxpacks:10
 # Capacitor Packs
 recipes.remove(<simplyjetpacks:fluxpacksEIO:2>);
 recipes.addShaped(<simplyjetpacks:fluxpacksEIO:2>, [[<EnderIO:itemBasicCapacitor:1>,<EnderIO:blockCapBank:1>,<EnderIO:itemBasicCapacitor:1>],[<EnderIO:itemAlloy:0>,<simplyjetpacks:fluxpacksEIO:1>,<EnderIO:itemAlloy:0>],[<EnderIO:itemAlloy:0>,<ore:dustGold>,<EnderIO:itemAlloy:0>]]);
+recipes.addShaped(<simplyjetpacks:fluxpacksEIO:4>, [
+  [<EnderIO:itemBasicCapacitor:2>, <EnderIO:blockCapBank:3>, <EnderIO:itemBasicCapacitor:2>],
+  [<EnderIO:itemAlloy:2>, <simplyjetpacks:fluxpacksEIO:3>, <EnderIO:itemAlloy:2>],
+  [<EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:2>],
+]);
 
 # Creative Flux Pack
 mods.avaritia.ExtremeCrafting.addShaped(<simplyjetpacks:fluxpacksCommon:9001>, 
