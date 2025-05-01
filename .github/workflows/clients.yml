@@ -8,6 +8,8 @@ on:
 jobs:
   build_and_release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -105,9 +107,9 @@ jobs:
           release_name: Build from commit ${{ steps.get_short_sha.outputs.short_sha }}
           body: |
             Automaticky generované balíčky pro klienty.
-            Commit: ${{ github.sha }} # Plné SHA v těle Release
+            Commit: ${{ github.sha }}
           draft: false
-          prerelease: false
+          prerelease: true
 
       - name: Upload Technic Pack Asset
         uses: actions/upload-release-asset@v1
