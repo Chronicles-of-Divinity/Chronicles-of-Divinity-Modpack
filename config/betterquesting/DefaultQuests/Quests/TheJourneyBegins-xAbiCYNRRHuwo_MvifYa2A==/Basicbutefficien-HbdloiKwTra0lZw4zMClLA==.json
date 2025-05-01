@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Mine 5 pieces of Coal!",
+      "desc:8": "Now that you have mined a bit of stone with your new pickaxe, your mining skill should\u0027ve increased and you can mine some Coal!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -39,7 +39,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 3,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:string"
@@ -57,7 +57,7 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 5,
+          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:coal"

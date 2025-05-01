@@ -26,12 +26,12 @@ recipes.remove(<TConstruct:SearedBlock:0>);
 
 var brick = <TConstruct:materials:2>;
 var block = <TConstruct:Smeltery:2>;
-recipes.addShaped(<TConstruct:Smeltery:0>, [[brick, block, brick],[block, <ore:blockRedstone>, block],[brick, block, brick]]);
+recipes.addShaped(<TConstruct:Smeltery:0>, [[brick, block, brick],[block, <minecraft:furnace>, block],[brick, block, brick]]);
 recipes.addShaped(<TConstruct:Smeltery:1>, [[brick, null, brick],[block, <TConstruct:SearedBlock:1>, block],[brick, null, brick]]);
 recipes.addShaped(<TConstruct:LavaTank>, [[brick, block, brick],[block, <ore:blockGlass>, block],[brick, block, brick]]);
 recipes.addShaped(<TConstruct:CastingChannel>, [[brick, null, brick],[brick, brick, brick],[null, null, null]]);
 recipes.addShaped(<TConstruct:SearedBlock:2>, [[brick, null, brick],[brick, null, brick],[block, <minecraft:cauldron>, block]]);
-recipes.addShaped(<TConstruct:SearedBlock:0>, [[block, <minecraft:heavy_weighted_pressure_plate>, block],[brick, null, brick],[brick, null, brick]]);
+recipes.addShaped(<TConstruct:SearedBlock:0>, [[block, <minecraft:stone_pressure_plate>, block],[brick, null, brick],[brick, null, brick]]);
 
 recipes.remove(<TConstruct:SmelteryNether:0>);
 recipes.remove(<TConstruct:SmelteryNether:1>);
@@ -41,11 +41,11 @@ recipes.remove(<TConstruct:SearedBlockNether:0>);
 
 var brick2 = <TConstruct:materials:37>;
 var block2 = <TConstruct:SmelteryNether:2>;
-recipes.addShaped(<TConstruct:SmelteryNether:0>, [[brick2, block2, brick2],[block2, <ore:blockRedstone>, block2],[brick2, block2, brick2]]);
+recipes.addShaped(<TConstruct:SmelteryNether:0>, [[brick2, block2, brick2],[block2, <minecraft:furnace>, block2],[brick2, block2, brick2]]);
 recipes.addShaped(<TConstruct:SmelteryNether:1>, [[brick2, null, brick2],[block2, <TConstruct:SearedBlock:1>, block2],[brick2, null, brick2]]);
 recipes.addShaped(<TConstruct:LavaTankNether>, [[brick2, block2, brick2],[block2, <ore:blockGlass>, block2],[brick2, block2, brick2]]);
 recipes.addShaped(<TConstruct:SearedBlockNether:2>, [[brick2, null, brick2],[brick2, null, brick2],[block2, <minecraft:cauldron>, block2]]);
-recipes.addShaped(<TConstruct:SearedBlockNether:0>, [[block2, <minecraft:heavy_weighted_pressure_plate>, block2],[brick2, null, brick2],[brick2, null, brick2]]);
+recipes.addShaped(<TConstruct:SearedBlockNether:0>, [[block2, <minecraft:stone_pressure_plate>, block2],[brick2, null, brick2],[brick2, null, brick2]]);
 
 # Unstable Parts
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:toughRod:314>, <liquid:molten.unstableingots> * 432, <TConstruct:metalPattern:14>, false, 50);
