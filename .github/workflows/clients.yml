@@ -42,11 +42,14 @@ jobs:
         run: |
           BUILD_DIR="build/multimc8"
           MINECRAFT_DIR="$BUILD_DIR/minecraft"
-          mkdir -p "$MINECRAFT_DIR"
+          mkdir -p "$BUILD_DIR" "$MINECRAFT_DIR"
+
           cp -r config mods scripts resources "$MINECRAFT_DIR/"
+
           shopt -s dotglob
-          cp -r Clients/MultiMC_Java8/* "$MINECRAFT_DIR/" 2>/dev/null || :
+          cp -r Clients/MultiMC_Java8/* "$BUILD_DIR/" 2>/dev/null || :
           shopt -u dotglob
+
           cd "$BUILD_DIR"
           zip -r ../../multimc8_pack.zip ./*
           cd ../..
@@ -56,41 +59,46 @@ jobs:
         run: |
           BUILD_DIR="build/multimc17"
           MINECRAFT_DIR="$BUILD_DIR/minecraft"
-          TEMP_UNZIP_DIR="temp_multimc17_extract"
-          MULTIMC17_ZIP=$(find Clients/MultiMC_Java17 -maxdepth 1 -name "*.zip" -print -quit)
-          LWJGL3IFY_JAR="Clients/MultiMC_Java17/lwjgl3ify-2.1.10.jar"
+          TEMP_UNZIP_DIR_MAIN="temp_multimc17_extract_main"
+          MULTIMC17_MAIN_ZIP=$(find Clients/MultiMC_Java17 -maxdepth 1 -name "*.zip" ! -name "lwjgl3ify-*.zip" -print -quit)
+          LWJGL3IFY_ZIP="Clients/MultiMC_Java17/lwjgl3ify-2.1.10-multimc.zip"
 
-          if [ -z "$MULTIMC17_ZIP" ]; then
-            echo "Chyba: Zip soubor pro MultiMC Java 17+ nebyl nalezen ve složce Clients/MultiMC_Java17."
+          if [ -z "$MULTIMC17_MAIN_ZIP" ]; then
+            echo "Chyba: Hlavní zip soubor pro MultiMC Java 17+ nebyl nalezen ve složce Clients/MultiMC_Java17."
             exit 1
           fi
 
-          if [ ! -f "$LWJGL3IFY_JAR" ]; then
-            echo "Chyba: Soubor $LWJGL3IFY_JAR nebyl nalezen na očekávaném místě."
+          if [ ! -f "$LWGL3IFY_ZIP" ]; then
+            echo "Chyba: Soubor $LWGL3IFY_ZIP nebyl nalezen na očekávaném místě."
             exit 1
           fi
 
-          mkdir -p "$MINECRAFT_DIR" "$TEMP_UNZIP_DIR"
-
-          unzip "$MULTIMC17_ZIP" -d "$TEMP_UNZIP_DIR"
-
-          if [ -d "$TEMP_UNZIP_DIR/minecraft" ]; then
-            shopt -s dotglob
-            cp -r "$TEMP_UNZIP_DIR/minecraft/"* "$MINECRAFT_DIR/"
-            shopt -u dotglob
-          else
-            echo "Varování: Extrahovaný zip neobsahuje složku 'minecraft'. Pokračuji pouze se společnými soubory."
-          fi
+          mkdir -p "$BUILD_DIR" "$MINECRAFT_DIR" "$TEMP_UNZIP_DIR_MAIN"
 
           cp -r config mods scripts resources "$MINECRAFT_DIR/"
 
-          cp "$LWJGL3IFY_JAR" "$MINECRAFT_DIR/mods/"
+          unzip "$MULTIMC17_MAIN_ZIP" -d "$TEMP_UNZIP_DIR_MAIN"
+
+          if [ -d "$TEMP_UNZIP_DIR_MAIN/minecraft" ]; then
+            shopt -s dotglob
+            cp -r "$TEMP_UNZIP_DIR_MAIN/minecraft/"* "$MINECRAFT_DIR/" 2>/dev/null || :
+            shopt -u dotglob
+          else
+            echo "Varování: Extrahovaný hlavní zip neobsahuje složku 'minecraft'. Pokračuji bez kopírování z ní."
+          fi
+
+          shopt -s dotglob
+          cp -r Clients/MultiMC_Java17/* "$BUILD_DIR/" 2>/dev/null || :
+          shopt -u dotglob
+          find "$BUILD_DIR" -maxdepth 1 -name "*.zip" -delete
+
+          rm -rf "$TEMP_UNZIP_DIR_MAIN"
+
+          unzip -o "$LWGL3IFY_ZIP" -d "$BUILD_DIR/"
 
           cd "$BUILD_DIR"
           zip -r ../../multimc17_pack.zip ./*
           cd ../..
-
-          rm -rf "$TEMP_UNZIP_DIR"
         shell: bash
 
       - name: Get short commit SHA
