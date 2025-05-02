@@ -3,16 +3,12 @@
     "0:10": {
       "questIDHigh:4": 28867802654592732,
       "questIDLow:4": -5770380493477152137
-    },
-    "1:10": {
-      "questIDHigh:4": -5675251057491819663,
-      "questIDLow:4": -6626275416836770403
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Acquire hardware!",
+      "desc:8": "Acquire hardware!\n\nWhenever you get used to the copper pickaxe, you can mine some Iron!\n\nFrom now on it\u0027s just about upgrading your pickaxe head with the best available material.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

@@ -1,20 +1,60 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 1580508905343698951,
-      "questIDLow:4": -4796025544731469608
+      "questIDHigh:4": -7760769144515966971,
+      "questIDLow:4": -6695970467685314954
+    },
+    "1:10": {
+      "questIDHigh:4": -3402488736439187577,
+      "questIDLow:4": -4811995705359396455
+    },
+    "2:10": {
+      "questIDHigh:4": 5270511297214235890,
+      "questIDLow:4": -5406933863640093733
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Craft a Wooden Pickaxe!",
+      "desc:8": "Craft a Flint Pickaxe!\n\nIf you have an abundance of paper, consider making a tool binding out of it.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:wooden_pickaxe"
+        "id:8": "TConstruct:pickaxe",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:3": 9,
+            "Attack:3": 3,
+            "BaseAttack:3": 3,
+            "BaseDurability:3": 113,
+            "BonusDurability:3": 0,
+            "Broken:1": 0,
+            "Damage:3": 0,
+            "ExtraRedstone:3": 402,
+            "Handle:3": 0,
+            "HarvestLevel:3": 1,
+            "HarvestLevelModified:1": 1,
+            "Head:3": 3,
+            "HeadEXP:4": 0,
+            "MiningSpeed:3": 400,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 2,
+            "RenderAccessory:3": 9,
+            "RenderHandle:3": 0,
+            "RenderHead:3": 3,
+            "RepairCount:3": 1,
+            "Shoddy:5": 0.0,
+            "ToolEXP:4": 80,
+            "ToolLevel:3": 2,
+            "TotalDurability:3": 113,
+            "Unbreaking:3": 0
+          },
+          "display:10": {
+            "Name:8": "§f§fFlint Pickaxe"
+          }
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -36,16 +76,22 @@
     "0:10": {
       "choices:9": {
         "0:10": {
-          "Count:3": 4,
-          "Damage:2": 3,
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:sapling"
+          "id:8": "minecraft:leather_helmet"
         },
         "1:10": {
-          "Count:3": 4,
-          "Damage:2": 5,
+          "Count:3": 1,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:sapling"
+          "id:8": "minecraft:leather_leggings"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:leather_boots"
         }
       },
       "ignoreDisabled:1": 0,
@@ -64,9 +110,69 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxeHead"
+        },
+        "1:10": {
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "minecraft:wooden_pickaxe"
+          "id:8": "TConstruct:binding"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:toolRod"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxe",
+          "tag:10": {
+            "InfiTool:10": {
+              "Accessory:3": 3,
+              "Attack:3": 3,
+              "BaseAttack:3": 3,
+              "BaseDurability:3": 56,
+              "BonusDurability:3": 0,
+              "Broken:1": 0,
+              "Built:1": 1,
+              "Damage:3": 0,
+              "Handle:3": 3,
+              "HarvestLevel:3": 0,
+              "HarvestLevelModified:1": 0,
+              "Head:3": 3,
+              "HeadEXP:4": 0,
+              "MiningSpeed:3": 400,
+              "ModDurability:5": 0.0,
+              "Modifiers:3": 0,
+              "RenderAccessory:3": 3,
+              "RenderHandle:3": 3,
+              "RenderHead:3": 3,
+              "Shoddy:5": 0.0,
+              "ToolEXP:4": 0,
+              "ToolLevel:3": 1,
+              "TotalDurability:3": 56,
+              "Unbreaking:3": 0
+            },
+            "display:10": {
+              "Name:8": "§fFlint Pickaxe"
+            }
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

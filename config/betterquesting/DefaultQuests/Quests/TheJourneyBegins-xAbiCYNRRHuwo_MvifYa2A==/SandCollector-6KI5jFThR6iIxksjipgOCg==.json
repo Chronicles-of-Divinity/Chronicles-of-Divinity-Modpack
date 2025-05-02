@@ -42,7 +42,7 @@
             "InfiTool:10": {
               "Attack:3": 4,
               "BaseAttack:3": 4,
-              "BaseDurability:3": 119,
+              "BaseDurability:3": 56,
               "BonusDurability:3": 0,
               "Broken:1": 0,
               "Built:1": 1,
@@ -50,17 +50,19 @@
               "Handle:3": 3,
               "HarvestLevel:3": 1,
               "Head:3": 3,
-              "MiningSpeed:3": 525,
+              "MiningSpeed:3": 400,
               "ModDurability:5": 0.0,
-              "Modifiers:3": 3,
+              "Modifiers:3": 0,
               "RenderHandle:3": 3,
               "RenderHead:3": 3,
               "Shoddy:5": 0.0,
-              "TotalDurability:3": 119,
+              "ToolEXP:4": 0,
+              "ToolLevel:3": 1,
+              "TotalDurability:3": 56,
               "Unbreaking:3": 0
             },
             "display:10": {
-              "Name:8": "�fFlint Shovel"
+              "Name:8": "§fFlint Shovel"
             }
           }
         }

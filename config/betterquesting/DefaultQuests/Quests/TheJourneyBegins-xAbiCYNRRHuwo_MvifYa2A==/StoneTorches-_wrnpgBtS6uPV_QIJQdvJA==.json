@@ -43,7 +43,7 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 3,
+          "Count:3": 8,
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "minecraft:cooked_chicken"
