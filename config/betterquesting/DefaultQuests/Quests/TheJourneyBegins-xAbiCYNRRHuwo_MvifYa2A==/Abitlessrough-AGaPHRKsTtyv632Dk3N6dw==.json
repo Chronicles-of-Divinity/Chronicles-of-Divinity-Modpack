@@ -1,0 +1,105 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3239160290021130192,
+      "questIDLow:4": -5673763234556177656
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You need better tools to mine better ores!\n\nThe first step is a copper pickaxe. Mine some aluminum and copper, melt in in a smeltery for aluminum brass, pour that onto a cobblestone pickaxe head to make a cast. If you have some brass left over, consider making casts for ingots, nuggets, or other tool parts you\u0027d like to use.\n\nNow you can melt some copper and make a copper pickaxe. If you repair your flint tool, you can even replace the old part and not craft a whole new pickaxe, yay!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:pickaxe",
+        "tag:10": {
+          "InfiTool:10": {
+            "Accessory:3": 9,
+            "Attack:3": 3,
+            "BaseAttack:3": 3,
+            "BaseDurability:3": 135,
+            "BonusDurability:3": 0,
+            "Broken:1": 0,
+            "Damage:3": 0,
+            "Handle:3": 0,
+            "HarvestLevel:3": 1,
+            "HarvestLevelModified:1": 0,
+            "Head:3": 13,
+            "HeadEXP:3": 0,
+            "MiningSpeed:3": 500,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 1,
+            "RenderAccessory:3": 9,
+            "RenderHandle:3": 0,
+            "RenderHead:3": 13,
+            "Shoddy:5": 0.0,
+            "ToolEXP:3": 0,
+            "ToolLevel:3": 1,
+            "TotalDurability:3": 135,
+            "Unbreaking:3": 0
+          },
+          "display:10": {
+            "Name:8": "§rCopper Pickaxe"
+          }
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "A bit less rough",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 28867802654592732,
+  "questIDLow:4": -5770380493477152137,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:lapis_ore"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "TConstruct:metalPattern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": "",
+          "id:8": "TConstruct:pickaxeHead"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
