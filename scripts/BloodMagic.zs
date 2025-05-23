@@ -22,7 +22,7 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <divinerpg:iceSt
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:masterBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:masterBloodOrb>, <AWWayofTime:bloodMagicBaseItems:6>, 4, 50000);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:archmageBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <customthings:item:21>, 5, 100000);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:archmageBloodOrb>, <Botania:rune:13>, 5, 100000);
 
 # Demonic Gem
 recipes.addShaped(<customthings:item:21>, [[<divinerpg:wildwoodGem>,<AWWayofTime:demonBloodShard>,<divinerpg:wildwoodGem>],[<AWWayofTime:demonBloodShard>,<ExtraTiC:funStuffIngot:2>,<AWWayofTime:demonBloodShard>],[<divinerpg:wildwoodGem>,<AWWayofTime:demonBloodShard>,<divinerpg:wildwoodGem>]]);
